@@ -15,4 +15,9 @@
 - weakened
 - immobile
 - blind
+
+
+## alternates
+- HP and armor absorb damage
+- damage beyond that affects ability scores
 - 
