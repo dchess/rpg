@@ -23,3 +23,6 @@
 *Optional Rules*
 * For increased challenge, reduce starting points to 8 (and set min to -3)
 * For decreased challenge, increase starting points to 12 (and set min to -1)
+
+# Alternate
+- 4 abilities scores: strength, agility, acuity, will
