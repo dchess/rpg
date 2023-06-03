@@ -3,7 +3,7 @@
 1. [Ability Scores](ability_scores)
 2. [Lineage](lineage)
 3. [Experience](experience)
-4. Skills
+4. [Skills](skills)
 5. Advancement
 6. Equipment
 7. Adventuring
