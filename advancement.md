@@ -5,9 +5,9 @@
 |---|---|---|
 |1.|Novice|0|
 |2.|Adventurer|10|
-|3.|Hero|100|
-|4.|Leader|1000|
-|5.|Paragon|5000|
+|3.|Hero|50|
+|4.|Leader|100|
+|5.|Paragon|1000|
 
 ## Types of Experience
 Experience is gained for the following scenarios:
