@@ -35,3 +35,18 @@
     - Dinosaur like reptiles
     - Deadly sentient plants
     
+
+## Flowchart
+
+```mermaid
+graph LR
+  A[Port Town]-->B[Jungle Trail]
+  B-->C[Entrance Tunnels]
+  C-->D[Mysterious Tower]
+  C-->E[Underwode]
+  E-->F[Undertown]
+  E-->G[Canyon]
+  G-->H[City Ruins]
+  H-->I[Pyramid]
+  I-->J[Labyrinth]
+  ```
