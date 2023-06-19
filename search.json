@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "rules/adventuring.html",
+    "href": "rules/adventuring.html",
+    "title": "Adventuring",
+    "section": "",
+    "text": "Ability checks\nAdvantage\nOverland Exploration/Travel\nDungeoncrawling\nFood and water\nSocial Interactions\nRest & Healing\nDowntime"
+  },
+  {
+    "objectID": "rules/equipment.html",
+    "href": "rules/equipment.html",
+    "title": "Equipment",
+    "section": "",
+    "text": "Starting packs\nShopping list\nUsages"
+  },
+  {
+    "objectID": "rules/lineage.html",
+    "href": "rules/lineage.html",
+    "title": "Lineage",
+    "section": "",
+    "text": "Human cultures\nFey (elves, fawns, etc)\nDark-fey (goblins, ogres, giants)\nSpirit (angelic like)\nDark-spirit (demonic like)"
+  },
+  {
+    "objectID": "rules/skills.html",
+    "href": "rules/skills.html",
+    "title": "Skills",
+    "section": "",
+    "text": "skilled bonus tied to advancement\nskills tied to ability scores (highest is skilled)\nknowledge skills (set number chosen during character creation)"
+  },
+  {
+    "objectID": "rules/skills.html#unskilled-vs-skilled",
+    "href": "rules/skills.html#unskilled-vs-skilled",
+    "title": "Skills",
+    "section": "",
+    "text": "skilled bonus tied to advancement\nskills tied to ability scores (highest is skilled)\nknowledge skills (set number chosen during character creation)"
+  },
+  {
+    "objectID": "rules/combat.html",
+    "href": "rules/combat.html",
+    "title": "Combat",
+    "section": "",
+    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
+  },
+  {
+    "objectID": "rules/combat.html#attacking",
+    "href": "rules/combat.html#attacking",
+    "title": "Combat",
+    "section": "",
+    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
+  },
+  {
+    "objectID": "rules/combat.html#injuries",
+    "href": "rules/combat.html#injuries",
+    "title": "Combat",
+    "section": "Injuries",
+    "text": "Injuries\n\nbleeding\nweakened\nimmobile\nblind"
+  },
+  {
+    "objectID": "rules/combat.html#alternates",
+    "href": "rules/combat.html#alternates",
+    "title": "Combat",
+    "section": "alternates",
+    "text": "alternates\n\nHP and armor absorb damage\ndamage beyond that affects ability scores"
+  },
+  {
+    "objectID": "rules/magic.html",
+    "href": "rules/magic.html",
+    "title": "Magic",
+    "section": "",
+    "text": "Spells\nMagic Items\nWild magic effects"
+  },
+  {
+    "objectID": "rules/advancement.html",
+    "href": "rules/advancement.html",
+    "title": "Advancement",
+    "section": "",
+    "text": "#\nTier\nXP\n\n\n\n\n1.\nNovice\n0\n\n\n2.\nAdventurer\n10\n\n\n3.\nHero\n50\n\n\n4.\nLeader\n100\n\n\n5.\nParagon\n1000"
+  },
+  {
+    "objectID": "rules/advancement.html#tiers",
+    "href": "rules/advancement.html#tiers",
+    "title": "Advancement",
+    "section": "",
+    "text": "#\nTier\nXP\n\n\n\n\n1.\nNovice\n0\n\n\n2.\nAdventurer\n10\n\n\n3.\nHero\n50\n\n\n4.\nLeader\n100\n\n\n5.\nParagon\n1000"
+  },
+  {
+    "objectID": "rules/advancement.html#types-of-experience",
+    "href": "rules/advancement.html#types-of-experience",
+    "title": "Advancement",
+    "section": "Types of Experience",
+    "text": "Types of Experience\nExperience is gained for the following scenarios: - Defeat of a significant foe (not minions) - Increasing wealth level - Accomplishing a major goal - Surviving a significant defeat (permanent wounds incurred)"
+  },
+  {
+    "objectID": "rules/advancement.html#increasing-tier",
+    "href": "rules/advancement.html#increasing-tier",
+    "title": "Advancement",
+    "section": "Increasing Tier",
+    "text": "Increasing Tier\nAt each tier new boons are granted.\n\nAdventurer\n\nIncrease HP by 1d6\nRenown increases by 1\nGain 2 ability points\nChoose 2 new feats\n\n\n\nHero\n\nIncrease HP by 1d6\nRenown increases by 2\nGain 2 ability points\nChoose 2 new feats\nAdd 1 knowledge skill\n\n\n\nLeader\n\nIncrease HP by 1d6\nRenown increased by 5\nChoose 2 new feats\nGain 1d6 additional followers (in addition to any gained via renown)\n\n\n\nParagon\n\nIncrease HP by 1d6\nRenown increased by 10\nChoose 1 new feat\nGain epic boon"
+  },
+  {
+    "objectID": "rules/wealth.html",
+    "href": "rules/wealth.html",
+    "title": "Wealth",
+    "section": "",
+    "text": "Coinage is indicated in units of sovereign pieces (sp). The wealth level of characters is determined by the value of their available assets (including strongholds).\n\n\n\n\n\n#\nDescription\nSP Increment\nSP Min\n\n\n\n\n1-5\nPoor\n100\n0\n\n\n6-19\nModest\n1,000\n500\n\n\n20-39\nComfortable\n10,000\n14,500\n\n\n40-59\nWealthy\n100,000\n194,500\n\n\n60-99\nNoble\n250,000\n2,094,500\n\n\n100+\nSovereign\n1,000,000\n11,844,500"
+  },
+  {
+    "objectID": "rules/wealth.html#wealth-levels",
+    "href": "rules/wealth.html#wealth-levels",
+    "title": "Wealth",
+    "section": "",
+    "text": "#\nDescription\nSP Increment\nSP Min\n\n\n\n\n1-5\nPoor\n100\n0\n\n\n6-19\nModest\n1,000\n500\n\n\n20-39\nComfortable\n10,000\n14,500\n\n\n40-59\nWealthy\n100,000\n194,500\n\n\n60-99\nNoble\n250,000\n2,094,500\n\n\n100+\nSovereign\n1,000,000\n11,844,500"
+  },
+  {
+    "objectID": "rules/training.html",
+    "href": "rules/training.html",
+    "title": "Training",
+    "section": "",
+    "text": "Personal history/background before becoming an adventurer.\n\nApprentice\nArtisan\nCaptive\nClergy\nHealer\nMan-at-arms\nMerchant\nMinstrel\nNoble\nNomad\nOutlaw\nPeasant\nRetainer\nSailor\nScholar"
+  },
+  {
+    "objectID": "rules/adversaries.html",
+    "href": "rules/adversaries.html",
+    "title": "Adversaries",
+    "section": "",
+    "text": "Beastiary\nNPCs\nFactions\nRandom Encounter tables"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Character Generation\nAdventure Hooks"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Overview",
+    "section": "",
+    "text": "Character Generation\nAdventure Hooks"
+  },
+  {
+    "objectID": "index.html#pointcrawl",
+    "href": "index.html#pointcrawl",
+    "title": "Overview",
+    "section": "Pointcrawl",
+    "text": "Pointcrawl\n\n\n\n\ngraph TD\n  subgraph island\n    1(Port Town) --&gt; B(Jungle Trail)\n  end\n  subgraph underdark\n    B --&gt; C[Mines]\n    D[Strange Ruins] -.-&gt; C\n    C --&gt; E{Underwode}\n    F[Undertown] --&gt; E\n    E --&gt; G[Canyon]\n    G --&gt; K[Slave Pits]\n    E --&gt; H[Ruined City]\n    H --&gt; I[Pyramid]\n    I --&gt; J[Labyrinth]\n  end"
+  },
+  {
+    "objectID": "index.html#port-town",
+    "href": "index.html#port-town",
+    "title": "Overview",
+    "section": "Port Town",
+    "text": "Port Town\n\nSupplies\nRumors\nHiring a guide"
+  },
+  {
+    "objectID": "index.html#jungle-trail",
+    "href": "index.html#jungle-trail",
+    "title": "Overview",
+    "section": "Jungle Trail",
+    "text": "Jungle Trail\n\nJungle Predators\n\nApes, monkeys, and giant apes\nBig cats\nBirds\nFlora\n\nExploration Dangers\n\nRiver flood\nRock slide\nRope bridge\nAccess to Water"
+  },
+  {
+    "objectID": "index.html#entrance-tunnels",
+    "href": "index.html#entrance-tunnels",
+    "title": "Overview",
+    "section": "Entrance Tunnels",
+    "text": "Entrance Tunnels\n\nEncounters\n\nUnderdark scavengers/monstrosities\nScouting parties and slavers\n\nLocations\n\nMines\nCave lairs\nEvidence of dungeon like structures (ruins of outlying settlements)\nSafe campsite\nNests for flying creatures (accesible to the surface)\nEntrance to tower"
+  },
+  {
+    "objectID": "index.html#strange-ruins",
+    "href": "index.html#strange-ruins",
+    "title": "Overview",
+    "section": "Strange Ruins",
+    "text": "Strange Ruins\n\nInaccessible to start\nMust be unlocked from keycard found in city ruins\nControl center that can restore power to ruined city and pyramid elevator"
+  },
+  {
+    "objectID": "index.html#the-underwode",
+    "href": "index.html#the-underwode",
+    "title": "Overview",
+    "section": "The Underwode",
+    "text": "The Underwode\n\nUnderdark jungle hexcrawl/pointcrawl?\nDeep crevasses and canyons instead of mountains and hills\nShafts that lead to the surface provide faint sources of light during the day that resemble stars\nRivers that lead further underground to sea caverns and ocean inlets\nOther exits to the surface\nAlien flora and fauna\n\nDisplacer beasts\nDinosaur like reptiles\nDeadly sentient plants"
+  },
+  {
+    "objectID": "index.html#canyon",
+    "href": "index.html#canyon",
+    "title": "Overview",
+    "section": "Canyon",
+    "text": "Canyon\n\nMany caves connecting to the various levels of the canyon walls\nFormer slave pits now the lairs of several competing factions\nKeep on the borderlands like system of caves\nEvidence found here of mechanism used to control bridge to ruined city"
+  },
+  {
+    "objectID": "index.html#ruined-city",
+    "href": "index.html#ruined-city",
+    "title": "Overview",
+    "section": "Ruined City",
+    "text": "Ruined City\n\nFar side of the canyon\nOnly accessible by long-range flight or restoring power to the bridge mechanism\nEvidence of an advanced civilization\nDeactivated automatons scattered throughout the ruins\nMassive pyramid at center of city\nLegion of undead patrolling ruins\nElevator like mechanism at top of pyramid (controls are in an error state, need a system restart)\nControl center can restore system (and re-activate automatons)"
+  },
+  {
+    "objectID": "index.html#pyramid-labyrinth",
+    "href": "index.html#pyramid-labyrinth",
+    "title": "Overview",
+    "section": "Pyramid Labyrinth",
+    "text": "Pyramid Labyrinth\n\nMaze like dungeon complex leading to a strange dock"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "A place to capture ideas for my next tabletop rpg campaign and homebrew rules"
+  },
+  {
+    "objectID": "abilities.html",
+    "href": "abilities.html",
+    "title": "Abilities",
+    "section": "",
+    "text": "Category\nName\nDescription\n\n\n\n\nPhysical\nMuscle\nstrength and fitness\n\n\n\nAgility\nability to respond quickly\n\n\n\nFortitude\nhealth and pain tolerance\n\n\nMental\nAcuity\nperceptive senses (sight, hearing)\n\n\n\nInsight\nintuition and wisdom\n\n\n\nIntellect\ngeneral intelligence and abstract thinking\n\n\nWill\nCourage\nmental fortitude and resistance to fear\n\n\n\nMagnetism\nability to attract others and inspire confidence\n\n\n\nSpirit\ncapacity for and resistance to magical forces\n\n\n\nGenerating Abilities * Each ability has a bonus or penalty ranging from -5 to +5 * Each ability starts at 0 * No more than one ability can be +4 to start * A new character has 10 points to spend to adjust any ability up to a max of +3 * Reducing a starting ability allows the player to spend those points elsewhere * No starting ability may be less than -2\nOptional Rules * For increased challenge, reduce starting points to 8 (and set min to -3) * For decreased challenge, increase starting points to 12 (and set min to -1)\n\nAlternate\n\n4 abilities scores: strength, agility, acuity, will"
+  }
+]
