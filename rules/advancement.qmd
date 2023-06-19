@@ -13,6 +13,7 @@ title: "Advancement"
 
 ## Types of Experience
 Experience is gained for the following scenarios:
+
 - Defeat of a significant foe (not minions)
 - Increasing wealth level
 - Accomplishing a major goal
