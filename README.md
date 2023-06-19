@@ -1,0 +1,5 @@
+rpg
+---
+
+A place to capture ideas for my next tabletop rpg campaign
+and homebrew rules.
