@@ -1,7 +1,97 @@
 ---
-title: "site"
+title: "Overview"
+aliases:
+    - campaign/index.qmd
+format:
+  html:
+    mermaid:
+      theme: neutral
 ---
 
-This is a Quarto website.
+## Introduction
+  - Character Generation
+  - Adventure Hooks
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Pointcrawl
+```{mermaid}
+graph TD
+  subgraph island
+    1(Port Town) --> B(Jungle Trail)
+  end
+  subgraph underdark
+    B --> C[Mines]
+    D[Strange Ruins] -.-> C
+    C --> E{Underwode}
+    F[Undertown] --> E
+    E --> G[Canyon]
+    G --> K[Slave Pits]
+    E --> H[Ruined City]
+    H --> I[Pyramid]
+    I --> J[Labyrinth]
+  end
+  ```
+
+## Port Town
+  - Supplies
+  - Rumors
+  - Hiring a guide
+
+## Jungle Trail
+  - Jungle Predators
+    - Apes, monkeys, and giant apes
+    - Big cats
+    - Birds
+    - Flora
+  - Exploration Dangers
+    - River flood
+    - Rock slide
+    - Rope bridge
+    - Access to Water
+
+## Entrance Tunnels
+  - Encounters
+    - Underdark scavengers/monstrosities
+    - Scouting parties and slavers
+  - Locations
+    - Mines
+    - Cave lairs
+    - Evidence of dungeon like structures (ruins of outlying settlements)
+    - Safe campsite
+    - Nests for flying creatures (accesible to the surface)
+    - Entrance to tower
+
+## Strange Ruins
+  - Inaccessible to start
+  - Must be unlocked from keycard found in city ruins
+  - Control center that can restore power to ruined city and pyramid elevator
+
+## The Underwode
+  - Underdark jungle hexcrawl/pointcrawl?
+  - Deep crevasses and canyons instead of mountains and hills
+  - Shafts that lead to the surface provide faint sources of light during the day that resemble stars
+  - Rivers that lead further underground to sea caverns and ocean inlets
+  - Other exits to the surface
+  - Alien flora and fauna
+    - Displacer beasts
+    - Dinosaur like reptiles
+    - Deadly sentient plants
+
+
+## Canyon
+  - Many caves connecting to the various levels of the canyon walls
+  - Former slave pits now the lairs of several competing factions
+  - Keep on the borderlands like system of caves
+  - Evidence found here of mechanism used to control bridge to ruined city
+
+## Ruined City
+  - Far side of the canyon
+  - Only accessible by long-range flight or restoring power to the bridge mechanism
+  - Evidence of an advanced civilization
+  - Deactivated automatons scattered throughout the ruins
+  - Massive pyramid at center of city
+  - Legion of undead patrolling ruins
+  - Elevator like mechanism at top of pyramid (controls are in an error state, need a system restart)
+  - Control center can restore system (and re-activate automatons)
+
+## Pyramid Labyrinth
+  - Maze like dungeon complex leading to a strange dock
