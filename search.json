@@ -215,5 +215,75 @@
     "title": "About",
     "section": "",
     "text": "A place to capture ideas for my next tabletop rpg campaign and homebrew rules"
+  },
+  {
+    "objectID": "campaign/encounters.html",
+    "href": "campaign/encounters.html",
+    "title": "Encounters",
+    "section": "",
+    "text": "Social encounters\nSights & Sounds encounters\nOverheard rumors\nSide quests?"
+  },
+  {
+    "objectID": "campaign/encounters.html#port-encounters",
+    "href": "campaign/encounters.html#port-encounters",
+    "title": "Encounters",
+    "section": "",
+    "text": "Social encounters\nSights & Sounds encounters\nOverheard rumors\nSide quests?"
+  },
+  {
+    "objectID": "campaign/encounters.html#jungle-encounters",
+    "href": "campaign/encounters.html#jungle-encounters",
+    "title": "Encounters",
+    "section": "Jungle Encounters",
+    "text": "Jungle Encounters\nRoll 1d6 every 4 hours (six times daily). On a roll of 1, roll below for an encounter.\n\n\n\n3d6\nJungle Encounter\n\n\n\n\n3\nJaguar or Crocodile (river) or hippo (river)\n\n\n4\nTerrain encounter\n\n\n5\nOcelot or otter (river)\n\n\n6\n1d4 apes\n\n\n7\n1d6 Explorers\n\n\n8\n1d12 Loggers\n\n\n9-11\nCorpse\n\n\n12\nTerrain encounter\n\n\n13-14\nInsect swarm\n\n\n15\n1d6 monkeys\n\n\n16\ngiant constrictor snake\n\n\n17-18\n1d4 snakes\n\n\n\n\nAdditional Options\n\nCorpse encounters roll separately for salvageable equipment.\nFor NPC encounters, roll for disposition\nMonkey encounters have a 1 in 3 chance for theft of an item\n\n\n\n\n\n\n\n\n3d6\nTerrain Encounter\n\n\n\n\n3\nRiver flood or rock slide\n\n\n4-7\nPath obstruction (delay or navigate around)\n\n\n8-10\nRiver crossing (roll again for encounter, ignore terrain encounters)\n\n\n11\nFresh water source (spring, abandoned waterskin, rain catcher, etc)\n\n\n12\nFruit baring tree\n\n\n13-14\nRare plant(s) (large flower, tall tree, etc)\n\n\n15\nHunter’s trap (1 in 3 chance of trapped animal)\n\n\n16\nPit trap\n\n\n17\nSpider webs covering path (ability check to avoid walking through)\n\n\n18\nWeather change (Rain starts/stops, heat increases/decreases)"
+  },
+  {
+    "objectID": "campaign/encounters.html#mine-encounters",
+    "href": "campaign/encounters.html#mine-encounters",
+    "title": "Encounters",
+    "section": "Mine Encounters",
+    "text": "Mine Encounters\nMines are mysteriously devoid of life. This area is largely exploration based. Roll 1d12 every hour of exploration. On a roll of 1, roll below for an encounter.\n\n\n\n\n\n\n\n3d6\nMine Encounter\n\n\n\n\n3-4\nTremor\n\n\n5-7\nSpider webs covering path (ability check to avoid walking through)\n\n\n8-10\nCorpse\n\n\n11\nSudden wind extinguishes unprotected light sources\n\n\n12\nSalvagable equipment\n\n\n13\n4d6 Bats\n\n\n14\nActive vein of …\n\n\n15\nUndead skeleton(s) (except on first exploration)\n\n\n16\nSpider drops onto random PC (ability check not to drop anything held)\n\n\n17\nOpen pit\n\n\n18\nTunnel collapse (ability check or take damage)"
+  },
+  {
+    "objectID": "campaign/encounters.html#cave-encounters",
+    "href": "campaign/encounters.html#cave-encounters",
+    "title": "Encounters",
+    "section": "Cave Encounters",
+    "text": "Cave Encounters\n\nCrystals\nExotic fungi (phosphorescent?)\nCliff/Gorge\nRuins\nShelter\nVent shaft\nUnderground stream\nWebs\nSlime/molds\nCarrion crawler\nGiant insect\nSpores\nGrick\nChuul\nPiercer\nLiving stone\nHook horror\nGelatinous Cube"
+  },
+  {
+    "objectID": "campaign/encounters.html#underwode-encounters",
+    "href": "campaign/encounters.html#underwode-encounters",
+    "title": "Encounters",
+    "section": "Underwode Encounters",
+    "text": "Underwode Encounters\nThese should mirror the jungle encounters but be distorted and alien in nature.\n\nDisplacer beast\nGirallon\nLizardfolk or grung or bullywogs\nDinosaurs\nWyvern\nCarnivorous plant\nPoisonous plant\nPlant mimic\nScouts/Hunters or hunting party\nStirges\nMushroom people\nGiant insect(s)\nEdibles\nFresh water\nBattery slime\nSalvagable equipment\nCorpse (futuristic gear)\nNaga\nChitine\nCranium rats\nFlail snail\nRoper\nEttercap or other spider-like humanoid\nDryad?\nCarnivorous slugs\nPhase spiders"
+  },
+  {
+    "objectID": "campaign/encounters.html#canyon-encounters",
+    "href": "campaign/encounters.html#canyon-encounters",
+    "title": "Encounters",
+    "section": "Canyon Encounters",
+    "text": "Canyon Encounters\n\nOgres/Fomorians/Ettins\nGoblins\nQuaggoth\nMorlocks\nHumanoid pets"
+  },
+  {
+    "objectID": "campaign/encounters.html#ruined-city-encounters",
+    "href": "campaign/encounters.html#ruined-city-encounters",
+    "title": "Encounters",
+    "section": "Ruined City Encounters",
+    "text": "Ruined City Encounters\n\nUndead, lots of undead\nAutomatons\nGargoyles?\nMindflayer?"
+  },
+  {
+    "objectID": "campaign/encounters.html#labyrinth-encounters",
+    "href": "campaign/encounters.html#labyrinth-encounters",
+    "title": "Encounters",
+    "section": "Labyrinth Encounters",
+    "text": "Labyrinth Encounters\n\nTraps\nAboleth?\nAboleth thralls\nAutomatons\nMindflayer tadpoles?\nDopplegangers?"
+  },
+  {
+    "objectID": "campaign/encounters.html#osr-bestiaries",
+    "href": "campaign/encounters.html#osr-bestiaries",
+    "title": "Encounters",
+    "section": "OSR Bestiaries",
+    "text": "OSR Bestiaries\n\nGoblinpunch\nBasic Fantasy\nVarlets and Vermin"
   }
 ]
