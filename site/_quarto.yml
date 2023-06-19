@@ -3,13 +3,17 @@ project:
 
 website:
   title: "Untitled RPG"
+  page-footer:
+    center:
+      - text: "About"
+        href: about.qmd
   sidebar:
     style: "floating"
     search: true
     contents:
       - section: "Campaign"
         contents:
-          - campaign/index.qmd
+          - index.qmd
       - section: "Rules"
         contents:
           - rules/abilities.qmd
@@ -22,10 +26,7 @@ website:
           - rules/combat.qmd
           - rules/magic.qmd
           - rules/adversaries.qmd
-      - section: "About"
-        contents:
-          - about.qmd
-
+  
 format:
   html:
     theme: sketchy
