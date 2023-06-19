@@ -1,0 +1,144 @@
+---
+title: "Encounters"
+---
+
+
+## Port Encounters
+- Social encounters
+- Sights & Sounds encounters
+- Overheard rumors
+- Side quests?
+
+## Jungle Encounters
+Roll 1d6 every 4 hours (six times daily). On a roll of 1, roll below for 
+an encounter.
+
+| 3d6 | Jungle Encounter |
+| --- | --- |
+| 3 | Jaguar or Crocodile (river) or hippo (river) |
+| 4 | Terrain encounter |
+| 5 | Ocelot or otter (river) |
+| 6 | 1d4 apes |
+| 7 | 1d6 Explorers |
+| 8 | 1d12 Loggers |
+| 9-11 | Corpse |
+| 12 | Terrain encounter |
+| 13-14 | Insect swarm |
+| 15 | 1d6 monkeys |
+| 16 | giant constrictor snake |
+| 17-18 | 1d4 snakes |   
+
+### Additional Options
+- Corpse encounters roll separately for salvageable equipment.
+- For NPC encounters, roll for disposition
+- Monkey encounters have a 1 in 3 chance for theft of an item
+
+| 3d6 | Terrain Encounter |
+| --- | --- |
+| 3 | River flood or rock slide |
+| 4-7 | Path obstruction (delay or navigate around) |
+| 8-10 | River crossing (roll again for encounter, ignore terrain encounters) |
+| 11 | Fresh water source (spring, abandoned waterskin, rain catcher, etc) |
+| 12 | Fruit baring tree |
+| 13-14 | Rare plant(s) (large flower, tall tree, etc) |
+| 15 | Hunter's trap (1 in 3 chance of trapped animal) |
+| 16 | Pit trap |
+| 17 | Spider webs covering path (ability check to avoid walking through) |
+| 18 | Weather change (Rain starts/stops, heat increases/decreases) |
+
+## Mine Encounters
+
+Mines are mysteriously devoid of life. This area is largely exploration based. Roll 1d12 every hour 
+of exploration. On a roll of 1, roll below for an encounter. 
+
+| 3d6 | Mine Encounter |
+| --- | --- |
+| 3-4 | Tremor |
+| 5-7 | Spider webs covering path (ability check to avoid walking through) |
+| 8-10 | Corpse |
+| 11 | Sudden wind extinguishes unprotected light sources |
+| 12 | Salvagable equipment |
+| 13 | 4d6 Bats |
+| 14 | Active vein of ... |
+| 15 | Undead skeleton(s) (except on first exploration) |
+| 16 | Spider drops onto random PC (ability check not to drop anything held) |
+| 17 | Open pit |
+| 18 | Tunnel collapse (ability check or take damage) |
+
+## Cave Encounters
+- Crystals
+- Exotic fungi (phosphorescent?)
+- Cliff/Gorge
+- Ruins
+- Shelter
+- Vent shaft
+- Underground stream
+- Webs
+- Slime/molds
+- Carrion crawler
+- Giant insect
+- Spores
+- Grick
+- Chuul
+- Piercer
+- Living stone
+- Hook horror
+- Gelatinous Cube
+
+## Underwode Encounters
+These should mirror the jungle encounters but be distorted and alien in nature.
+
+- Displacer beast
+- Girallon
+- Lizardfolk or grung or bullywogs
+- Dinosaurs
+- Wyvern
+- Carnivorous plant
+- Poisonous plant
+- Plant mimic
+- Scouts/Hunters or hunting party
+- Stirges
+- Mushroom people
+- Giant insect(s)
+- Edibles
+- Fresh water
+- Battery slime
+- Salvagable equipment
+- Corpse (futuristic gear)
+- Naga
+- Chitine
+- Cranium rats
+- Flail snail
+- Roper
+- Ettercap or other spider-like humanoid
+- Dryad?
+- Carnivorous slugs
+- Phase spiders
+
+## Canyon Encounters
+- Ogres/Fomorians/Ettins
+- Goblins
+- Quaggoth
+- Morlocks
+- Humanoid pets
+
+
+## Ruined City Encounters
+- Undead, lots of undead
+- Automatons
+- Gargoyles?
+- Mindflayer?
+
+## Labyrinth Encounters
+- Traps
+- Aboleth?
+- Aboleth thralls
+- Automatons
+- Mindflayer tadpoles?
+- Dopplegangers?
+
+
+## OSR Bestiaries
+- [Goblinpunch](https://goblinpunch.blogspot.com/2015/08/the-bestiary.html)
+- [Basic Fantasy](https://basicfantasy.org/downloads/BFRPG-Monster-Index-r7.pdf)
+- [Varlets and Vermin](https://drive.google.com/file/d/0BxxIbZkFu4wdN2YxZWQ1YzQtZTA2ZC00YjdhLTliYzAtYjFkYjRlZGEyNzIz/view?resourcekey=0-WQCYVol0rULVPzsCXtLonw)
