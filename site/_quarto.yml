@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "Untitled RPG"
+  page-footer:
+    center:
+      - text: "About"
+        href: about.qmd
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - section: "Campaign"
+        contents:
+          - index.qmd
+      - section: "Rules"
+        contents:
+          - rules/abilities.qmd
+          - rules/lineage.qmd
+          - rules/training.qmd
+          - rules/skills.qmd
+          - rules/advancement.qmd
+          - rules/equipment.qmd
+          - rules/adventuring.qmd
+          - rules/combat.qmd
+          - rules/magic.qmd
+          - rules/adversaries.qmd
+  
+format:
+  html:
+    theme: sketchy
+    css: styles.css
+    toc: true
+
+
+

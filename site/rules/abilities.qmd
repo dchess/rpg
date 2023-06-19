@@ -1,4 +1,6 @@
-# Abilities
+---
+title: "Abilities"
+---
 
 |Category|Name|Description|
 |---|---|---|

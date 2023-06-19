@@ -1,4 +1,6 @@
-# Lineages
+---
+title: "Lineage"
+---
 
 - Human cultures
 - Fey (elves, fawns, etc)

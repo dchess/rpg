@@ -1,4 +1,6 @@
-# Combat
+---
+title: "Combat"
+---
 
 ## Attacking
 
