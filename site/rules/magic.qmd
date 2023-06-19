@@ -1,0 +1,7 @@
+---
+title: "Magic"
+---
+
+- Spells
+- Magic Items
+- Wild magic effects

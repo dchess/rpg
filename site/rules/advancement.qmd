@@ -1,4 +1,6 @@
-# Advancement
+---
+title: "Advancement"
+---
 
 ## Tiers
 |#| Tier | XP |
