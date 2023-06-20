@@ -217,6 +217,20 @@
     "text": "A place to capture ideas for my next tabletop rpg campaign and homebrew rules"
   },
   {
+    "objectID": "campaign/mines.html",
+    "href": "campaign/mines.html",
+    "title": "Abandoned Mines",
+    "section": "",
+    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
+  },
+  {
+    "objectID": "campaign/mines.html#mine-pointcrawl",
+    "href": "campaign/mines.html#mine-pointcrawl",
+    "title": "Abandoned Mines",
+    "section": "",
+    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
+  },
+  {
     "objectID": "campaign/encounters.html",
     "href": "campaign/encounters.html",
     "title": "Encounters",

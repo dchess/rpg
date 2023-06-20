@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/dchess/rpg/rules/adventuring.html</loc>
-    <lastmod>2023-06-19T18:37:00.406Z</lastmod>
+    <lastmod>2023-06-20T01:59:25.074Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/equipment.html</loc>
-    <lastmod>2023-06-19T18:37:01.022Z</lastmod>
+    <lastmod>2023-06-20T01:59:25.810Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/lineage.html</loc>
-    <lastmod>2023-06-19T18:37:01.314Z</lastmod>
+    <lastmod>2023-06-20T01:59:26.186Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/skills.html</loc>
-    <lastmod>2023-06-19T18:37:01.626Z</lastmod>
+    <lastmod>2023-06-20T01:59:26.598Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/combat.html</loc>
-    <lastmod>2023-06-19T18:37:01.922Z</lastmod>
+    <lastmod>2023-06-20T01:59:26.974Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/magic.html</loc>
-    <lastmod>2023-06-19T18:37:02.190Z</lastmod>
+    <lastmod>2023-06-20T01:59:27.334Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/abilities.html</loc>
-    <lastmod>2023-06-19T18:37:02.514Z</lastmod>
+    <lastmod>2023-06-20T01:59:27.754Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/advancement.html</loc>
-    <lastmod>2023-06-19T18:37:02.842Z</lastmod>
+    <lastmod>2023-06-20T01:59:28.210Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/wealth.html</loc>
-    <lastmod>2023-06-19T18:37:03.174Z</lastmod>
+    <lastmod>2023-06-20T01:59:28.602Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/training.html</loc>
-    <lastmod>2023-06-19T18:37:03.466Z</lastmod>
+    <lastmod>2023-06-20T01:59:28.962Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/rules/adversaries.html</loc>
-    <lastmod>2023-06-19T18:37:03.730Z</lastmod>
+    <lastmod>2023-06-20T01:59:29.322Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/index.html</loc>
-    <lastmod>2023-06-19T18:37:04.138Z</lastmod>
+    <lastmod>2023-06-20T01:59:29.854Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/about.html</loc>
-    <lastmod>2023-06-19T18:37:04.410Z</lastmod>
+    <lastmod>2023-06-20T01:59:30.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/campaign/mines.html</loc>
+    <lastmod>2023-06-20T01:59:30.562Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/campaign/encounters.html</loc>
-    <lastmod>2023-06-19T18:37:04.910Z</lastmod>
+    <lastmod>2023-06-20T01:59:31.214Z</lastmod>
   </url>
 </urlset>
