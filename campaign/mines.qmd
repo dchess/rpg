@@ -1,0 +1,47 @@
+---
+title: "Abandoned Mines"
+format:
+  html:
+    mermaid:
+      theme: neutral
+---
+
+## Mine Pointcrawl
+Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts
+found in the workshop, processing room, and dig sites to safely traverse to level 2.
+
+```{mermaid}
+graph TB
+  subgraph L1[level 1]
+    1(entrance tunnel) --> 2(dig sites)
+    1 --> 3{{tool room}}
+    3 --> 4{{workshop}}
+    4 --> 4a{{galley}}
+    4 --> 4b{{offices}}
+    4 --> 5
+    2 --> 5(processing room)
+    2 --> 6(waste rock dump)
+    5 --> 7(dig sites)
+    6 --> 7
+    7 --> 8a(open shaft level 1)
+    6 --> 8a
+    8a --> 9(broken elevator)
+  end
+  subgraph L2[level 2]
+    9 --> 10(elevator landing)
+    11(dig sites) --> 10
+    8a ==> 8b(open shaft level 2)
+    10 --> 8b 
+    8b --rope bridge--> 12(dig sites)
+    13(break area) --> 12
+    12 --> 14(long descent)
+  end
+  subgraph L3[level 3]
+    14 --> 15(cliff stairs)
+    8b ==> 8c(open shaft level 3)
+    8c --> 16(warrens)
+    15 --> 16
+    16 --> 17(underdark entrance)
+    18(strange door) -.-> 15
+  end  
+```

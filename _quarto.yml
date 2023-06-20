@@ -15,6 +15,7 @@ website:
         contents:
           - index.qmd
           - campaign/encounters.qmd
+          - campaign/mines.qmd
       - section: "Rules"
         contents:
           - rules/abilities.qmd
