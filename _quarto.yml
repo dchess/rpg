@@ -11,6 +11,8 @@ website:
     style: "floating"
     search: true
     contents:
+      - section: "Phandalin"
+          - phandalin/index.qmd
       - section: "Campaign"
         contents:
           - index.qmd

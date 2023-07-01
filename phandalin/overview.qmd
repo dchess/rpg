@@ -1,0 +1,54 @@
+---
+title: "Overview"
+aliases:
+    - phandalin/index.qmd
+format:
+  html:
+    mermaid:
+      theme: neutral
+---
+
+## Combining the Lost Mines of Phandelver and the Dragon of Icespire Peak
+
+```{mermaid}
+graph TD
+  subgraph phandalin
+    3{Phandalin}
+  end
+  subgraph phandelver
+    1(Goblin Ambush) --> 2a(Cragmaw Hideout)
+    2a --> 3
+    3 --> 4(Old Owl Well)
+    4 --> 5(Wyvern Tor)
+    3 --> 6(Redbrand Hideout)
+    6 --> 2b[[Cragmaw Castle]]
+    3 --> 7a(Ruins of Thundertree)
+    7a --> 7b(Green Dragon)
+    7b --> 2b
+    3 --> 8(Agatha's Lair)
+    2b --> 9((Wave Echo Cave))
+    8 --> 9
+    7b --> 9
+  end
+  subgraph icespire
+    3 --> 10(Gnomengarde)
+    3 --> 11(Umbrage Hill)
+    3 --> 12(Dwarven Excavation)
+    3 --> 13(Tower of Storms)
+    10 & 11 & 12--> 14(Butterskull Ranch)
+    14 --> 5
+    10 & 11 & 12 --> 15a(Logger's Camp)
+    10 & 11 & 12 --> 16(Mountain's Toe Mine)
+    15a --> 15b(Hunter's Lodge)
+    14 & 15a & 16 --> 17(Axeholm)
+    14 & 15a & 16 --> 18[[Dragon's Barrow]]
+    14 & 15a & 16 --> 19[[Woodland Manse]]
+    15b --> 19
+    18 & 19 & 5 --> 20((Circle of Thunder))
+    20 --> 7b
+    5 & 14 --> 21(((Orc Attack))) --> 3
+    21 --> 22((Icespire Hold))
+    7b --> 22
+    23(((Dragon Attack))) --> 17 & 3
+  end
+```
