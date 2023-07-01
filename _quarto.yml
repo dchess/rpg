@@ -12,6 +12,7 @@ website:
     search: true
     contents:
       - section: "Phandalin"
+        contents:
           - phandalin/index.qmd
       - section: "Campaign"
         contents:
