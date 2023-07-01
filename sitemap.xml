@@ -1,63 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/dchess/rpg/rules/adventuring.html</loc>
-    <lastmod>2023-06-20T01:59:25.074Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/equipment.html</loc>
-    <lastmod>2023-06-20T01:59:25.810Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/lineage.html</loc>
-    <lastmod>2023-06-20T01:59:26.186Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/skills.html</loc>
-    <lastmod>2023-06-20T01:59:26.598Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/combat.html</loc>
-    <lastmod>2023-06-20T01:59:26.974Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/magic.html</loc>
-    <lastmod>2023-06-20T01:59:27.334Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/abilities.html</loc>
-    <lastmod>2023-06-20T01:59:27.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/advancement.html</loc>
-    <lastmod>2023-06-20T01:59:28.210Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/wealth.html</loc>
-    <lastmod>2023-06-20T01:59:28.602Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/training.html</loc>
-    <lastmod>2023-06-20T01:59:28.962Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/rules/adversaries.html</loc>
-    <lastmod>2023-06-20T01:59:29.322Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dchess/rpg/index.html</loc>
-    <lastmod>2023-06-20T01:59:29.854Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/dchess/rpg/about.html</loc>
-    <lastmod>2023-06-20T01:59:30.198Z</lastmod>
+    <lastmod>2023-07-01T22:03:32.251Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/phandalin/overview.html</loc>
+    <lastmod>2023-07-01T22:03:31.551Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/campaign/mines.html</loc>
-    <lastmod>2023-06-20T01:59:30.562Z</lastmod>
+    <lastmod>2023-07-01T22:03:30.763Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/skills.html</loc>
+    <lastmod>2023-07-01T22:03:30.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/training.html</loc>
+    <lastmod>2023-07-01T22:03:29.555Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/advancement.html</loc>
+    <lastmod>2023-07-01T22:03:28.963Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/equipment.html</loc>
+    <lastmod>2023-07-01T22:03:28.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/abilities.html</loc>
+    <lastmod>2023-07-01T22:03:27.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/adventuring.html</loc>
+    <lastmod>2023-07-01T22:03:27.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/magic.html</loc>
+    <lastmod>2023-07-01T22:03:28.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/adversaries.html</loc>
+    <lastmod>2023-07-01T22:03:28.623Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/wealth.html</loc>
+    <lastmod>2023-07-01T22:03:29.267Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/lineage.html</loc>
+    <lastmod>2023-07-01T22:03:29.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/rules/combat.html</loc>
+    <lastmod>2023-07-01T22:03:30.471Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dchess/rpg/campaign/encounters.html</loc>
-    <lastmod>2023-06-20T01:59:31.214Z</lastmod>
+    <lastmod>2023-07-01T22:03:31.267Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dchess/rpg/index.html</loc>
+    <lastmod>2023-07-01T22:03:31.951Z</lastmod>
   </url>
 </urlset>

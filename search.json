@@ -1,24 +1,38 @@
 [
   {
-    "objectID": "rules/adventuring.html",
-    "href": "rules/adventuring.html",
-    "title": "Adventuring",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Ability checks\nAdvantage\nOverland Exploration/Travel\nDungeoncrawling\nFood and water\nSocial Interactions\nRest & Healing\nDowntime"
+    "text": "A place to capture ideas for my next tabletop rpg campaign and homebrew rules"
   },
   {
-    "objectID": "rules/equipment.html",
-    "href": "rules/equipment.html",
-    "title": "Equipment",
+    "objectID": "phandalin/overview.html",
+    "href": "phandalin/overview.html",
+    "title": "Overview",
     "section": "",
-    "text": "Starting packs\nShopping list\nUsages"
+    "text": "graph TD\n  subgraph phandalin\n    3{Phandalin}\n  end\n  subgraph phandelver\n    1(Goblin Ambush) --&gt; 2a(Cragmaw Hideout)\n    2a --&gt; 3\n    3 --&gt; 4(Old Owl Well)\n    4 --&gt; 5(Wyvern Tor)\n    3 --&gt; 6(Redbrand Hideout)\n    6 --&gt; 2b[[Cragmaw Castle]]\n    3 --&gt; 7a(Ruins of Thundertree)\n    7a --&gt; 7b(Green Dragon)\n    7b --&gt; 2b\n    3 --&gt; 8(Agatha's Lair)\n    2b --&gt; 9((Wave Echo Cave))\n    8 --&gt; 9\n    7b --&gt; 9\n  end\n  subgraph icespire\n    3 --&gt; 10(Gnomengarde)\n    3 --&gt; 11(Umbrage Hill)\n    3 --&gt; 12(Dwarven Excavation)\n    3 --&gt; 13(Tower of Storms)\n    10 & 11 & 12--&gt; 14(Butterskull Ranch)\n    14 --&gt; 5\n    10 & 11 & 12 --&gt; 15a(Logger's Camp)\n    10 & 11 & 12 --&gt; 16(Mountain's Toe Mine)\n    15a --&gt; 15b(Hunter's Lodge)\n    14 & 15a & 16 --&gt; 17(Axeholm)\n    14 & 15a & 16 --&gt; 18[[Dragon's Barrow]]\n    14 & 15a & 16 --&gt; 19[[Woodland Manse]]\n    15b --&gt; 19\n    18 & 19 & 5 --&gt; 20((Circle of Thunder))\n    20 --&gt; 7b\n    5 & 14 --&gt; 21(((Orc Attack))) --&gt; 3\n    21 --&gt; 22((Icespire Hold))\n    7b --&gt; 22\n    23(((Dragon Attack))) --&gt; 17 & 3\n  end"
   },
   {
-    "objectID": "rules/lineage.html",
-    "href": "rules/lineage.html",
-    "title": "Lineage",
+    "objectID": "phandalin/overview.html#combining-the-lost-mines-of-phandelver-and-the-dragon-of-icespire-peak",
+    "href": "phandalin/overview.html#combining-the-lost-mines-of-phandelver-and-the-dragon-of-icespire-peak",
+    "title": "Overview",
     "section": "",
-    "text": "Human cultures\nFey (elves, fawns, etc)\nDark-fey (goblins, ogres, giants)\nSpirit (angelic like)\nDark-spirit (demonic like)"
+    "text": "graph TD\n  subgraph phandalin\n    3{Phandalin}\n  end\n  subgraph phandelver\n    1(Goblin Ambush) --&gt; 2a(Cragmaw Hideout)\n    2a --&gt; 3\n    3 --&gt; 4(Old Owl Well)\n    4 --&gt; 5(Wyvern Tor)\n    3 --&gt; 6(Redbrand Hideout)\n    6 --&gt; 2b[[Cragmaw Castle]]\n    3 --&gt; 7a(Ruins of Thundertree)\n    7a --&gt; 7b(Green Dragon)\n    7b --&gt; 2b\n    3 --&gt; 8(Agatha's Lair)\n    2b --&gt; 9((Wave Echo Cave))\n    8 --&gt; 9\n    7b --&gt; 9\n  end\n  subgraph icespire\n    3 --&gt; 10(Gnomengarde)\n    3 --&gt; 11(Umbrage Hill)\n    3 --&gt; 12(Dwarven Excavation)\n    3 --&gt; 13(Tower of Storms)\n    10 & 11 & 12--&gt; 14(Butterskull Ranch)\n    14 --&gt; 5\n    10 & 11 & 12 --&gt; 15a(Logger's Camp)\n    10 & 11 & 12 --&gt; 16(Mountain's Toe Mine)\n    15a --&gt; 15b(Hunter's Lodge)\n    14 & 15a & 16 --&gt; 17(Axeholm)\n    14 & 15a & 16 --&gt; 18[[Dragon's Barrow]]\n    14 & 15a & 16 --&gt; 19[[Woodland Manse]]\n    15b --&gt; 19\n    18 & 19 & 5 --&gt; 20((Circle of Thunder))\n    20 --&gt; 7b\n    5 & 14 --&gt; 21(((Orc Attack))) --&gt; 3\n    21 --&gt; 22((Icespire Hold))\n    7b --&gt; 22\n    23(((Dragon Attack))) --&gt; 17 & 3\n  end"
+  },
+  {
+    "objectID": "campaign/mines.html",
+    "href": "campaign/mines.html",
+    "title": "Abandoned Mines",
+    "section": "",
+    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
+  },
+  {
+    "objectID": "campaign/mines.html#mine-pointcrawl",
+    "href": "campaign/mines.html#mine-pointcrawl",
+    "title": "Abandoned Mines",
+    "section": "",
+    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
   },
   {
     "objectID": "rules/skills.html",
@@ -35,46 +49,11 @@
     "text": "skilled bonus tied to advancement\nskills tied to ability scores (highest is skilled)\nknowledge skills (set number chosen during character creation)"
   },
   {
-    "objectID": "rules/combat.html",
-    "href": "rules/combat.html",
-    "title": "Combat",
+    "objectID": "rules/training.html",
+    "href": "rules/training.html",
+    "title": "Training",
     "section": "",
-    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
-  },
-  {
-    "objectID": "rules/combat.html#attacking",
-    "href": "rules/combat.html#attacking",
-    "title": "Combat",
-    "section": "",
-    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
-  },
-  {
-    "objectID": "rules/combat.html#injuries",
-    "href": "rules/combat.html#injuries",
-    "title": "Combat",
-    "section": "Injuries",
-    "text": "Injuries\n\nbleeding\nweakened\nimmobile\nblind"
-  },
-  {
-    "objectID": "rules/combat.html#alternates",
-    "href": "rules/combat.html#alternates",
-    "title": "Combat",
-    "section": "alternates",
-    "text": "alternates\n\nHP and armor absorb damage\ndamage beyond that affects ability scores"
-  },
-  {
-    "objectID": "rules/magic.html",
-    "href": "rules/magic.html",
-    "title": "Magic",
-    "section": "",
-    "text": "Spells\nMagic Items\nWild magic effects"
-  },
-  {
-    "objectID": "rules/abilities.html",
-    "href": "rules/abilities.html",
-    "title": "Abilities",
-    "section": "",
-    "text": "Category\nName\nDescription\n\n\n\n\nPhysical\nMuscle\nstrength and fitness\n\n\n\nAgility\nability to respond quickly\n\n\n\nFortitude\nhealth and pain tolerance\n\n\nMental\nAcuity\nperceptive senses (sight, hearing)\n\n\n\nInsight\nintuition and wisdom\n\n\n\nIntellect\ngeneral intelligence and abstract thinking\n\n\nWill\nCourage\nmental fortitude and resistance to fear\n\n\n\nMagnetism\nability to attract others and inspire confidence\n\n\n\nSpirit\ncapacity for and resistance to magical forces\n\n\n\nGenerating Abilities * Each ability has a bonus or penalty ranging from -5 to +5 * Each ability starts at 0 * No more than one ability can be +4 to start * A new character has 10 points to spend to adjust any ability up to a max of +3 * Reducing a starting ability allows the player to spend those points elsewhere * No starting ability may be less than -2\nOptional Rules * For increased challenge, reduce starting points to 8 (and set min to -3) * For decreased challenge, increase starting points to 12 (and set min to -1)\n\nAlternate\n\n4 abilities scores: strength, agility, acuity, will"
+    "text": "Personal history/background before becoming an adventurer.\n\nApprentice\nArtisan\nCaptive\nClergy\nHealer\nMan-at-arms\nMerchant\nMinstrel\nNoble\nNomad\nOutlaw\nPeasant\nRetainer\nSailor\nScholar"
   },
   {
     "objectID": "rules/advancement.html",
@@ -105,6 +84,41 @@
     "text": "Increasing Tier\nAt each tier new boons are granted.\n\nAdventurer\n\nIncrease HP by 1d6\nRenown increases by 1\nGain 2 ability points\nChoose 2 new feats\n\n\n\nHero\n\nIncrease HP by 1d6\nRenown increases by 2\nGain 2 ability points\nChoose 2 new feats\nAdd 1 knowledge skill\n\n\n\nLeader\n\nIncrease HP by 1d6\nRenown increased by 5\nChoose 2 new feats\nGain 1d6 additional followers (in addition to any gained via renown)\n\n\n\nParagon\n\nIncrease HP by 1d6\nRenown increased by 10\nChoose 1 new feat\nGain epic boon"
   },
   {
+    "objectID": "rules/equipment.html",
+    "href": "rules/equipment.html",
+    "title": "Equipment",
+    "section": "",
+    "text": "Starting packs\nShopping list\nUsages"
+  },
+  {
+    "objectID": "rules/abilities.html",
+    "href": "rules/abilities.html",
+    "title": "Abilities",
+    "section": "",
+    "text": "Category\nName\nDescription\n\n\n\n\nPhysical\nMuscle\nstrength and fitness\n\n\n\nAgility\nability to respond quickly\n\n\n\nFortitude\nhealth and pain tolerance\n\n\nMental\nAcuity\nperceptive senses (sight, hearing)\n\n\n\nInsight\nintuition and wisdom\n\n\n\nIntellect\ngeneral intelligence and abstract thinking\n\n\nWill\nCourage\nmental fortitude and resistance to fear\n\n\n\nMagnetism\nability to attract others and inspire confidence\n\n\n\nSpirit\ncapacity for and resistance to magical forces\n\n\n\nGenerating Abilities * Each ability has a bonus or penalty ranging from -5 to +5 * Each ability starts at 0 * No more than one ability can be +4 to start * A new character has 10 points to spend to adjust any ability up to a max of +3 * Reducing a starting ability allows the player to spend those points elsewhere * No starting ability may be less than -2\nOptional Rules * For increased challenge, reduce starting points to 8 (and set min to -3) * For decreased challenge, increase starting points to 12 (and set min to -1)\n\nAlternate\n\n4 abilities scores: strength, agility, acuity, will"
+  },
+  {
+    "objectID": "rules/adventuring.html",
+    "href": "rules/adventuring.html",
+    "title": "Adventuring",
+    "section": "",
+    "text": "Ability checks\nAdvantage\nOverland Exploration/Travel\nDungeoncrawling\nFood and water\nSocial Interactions\nRest & Healing\nDowntime"
+  },
+  {
+    "objectID": "rules/magic.html",
+    "href": "rules/magic.html",
+    "title": "Magic",
+    "section": "",
+    "text": "Spells\nMagic Items\nWild magic effects"
+  },
+  {
+    "objectID": "rules/adversaries.html",
+    "href": "rules/adversaries.html",
+    "title": "Adversaries",
+    "section": "",
+    "text": "Beastiary\nNPCs\nFactions\nRandom Encounter tables"
+  },
+  {
     "objectID": "rules/wealth.html",
     "href": "rules/wealth.html",
     "title": "Wealth",
@@ -119,18 +133,109 @@
     "text": "#\nDescription\nSP Increment\nSP Min\n\n\n\n\n1-5\nPoor\n100\n0\n\n\n6-19\nModest\n1,000\n500\n\n\n20-39\nComfortable\n10,000\n14,500\n\n\n40-59\nWealthy\n100,000\n194,500\n\n\n60-99\nNoble\n250,000\n2,094,500\n\n\n100+\nSovereign\n1,000,000\n11,844,500"
   },
   {
-    "objectID": "rules/training.html",
-    "href": "rules/training.html",
-    "title": "Training",
+    "objectID": "rules/lineage.html",
+    "href": "rules/lineage.html",
+    "title": "Lineage",
     "section": "",
-    "text": "Personal history/background before becoming an adventurer.\n\nApprentice\nArtisan\nCaptive\nClergy\nHealer\nMan-at-arms\nMerchant\nMinstrel\nNoble\nNomad\nOutlaw\nPeasant\nRetainer\nSailor\nScholar"
+    "text": "Human cultures\nFey (elves, fawns, etc)\nDark-fey (goblins, ogres, giants)\nSpirit (angelic like)\nDark-spirit (demonic like)"
   },
   {
-    "objectID": "rules/adversaries.html",
-    "href": "rules/adversaries.html",
-    "title": "Adversaries",
+    "objectID": "rules/combat.html",
+    "href": "rules/combat.html",
+    "title": "Combat",
     "section": "",
-    "text": "Beastiary\nNPCs\nFactions\nRandom Encounter tables"
+    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
+  },
+  {
+    "objectID": "rules/combat.html#attacking",
+    "href": "rules/combat.html#attacking",
+    "title": "Combat",
+    "section": "",
+    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
+  },
+  {
+    "objectID": "rules/combat.html#injuries",
+    "href": "rules/combat.html#injuries",
+    "title": "Combat",
+    "section": "Injuries",
+    "text": "Injuries\n\nbleeding\nweakened\nimmobile\nblind"
+  },
+  {
+    "objectID": "rules/combat.html#alternates",
+    "href": "rules/combat.html#alternates",
+    "title": "Combat",
+    "section": "alternates",
+    "text": "alternates\n\nHP and armor absorb damage\ndamage beyond that affects ability scores"
+  },
+  {
+    "objectID": "campaign/encounters.html",
+    "href": "campaign/encounters.html",
+    "title": "Encounters",
+    "section": "",
+    "text": "Social encounters\nSights & Sounds encounters\nOverheard rumors\nSide quests?"
+  },
+  {
+    "objectID": "campaign/encounters.html#port-encounters",
+    "href": "campaign/encounters.html#port-encounters",
+    "title": "Encounters",
+    "section": "",
+    "text": "Social encounters\nSights & Sounds encounters\nOverheard rumors\nSide quests?"
+  },
+  {
+    "objectID": "campaign/encounters.html#jungle-encounters",
+    "href": "campaign/encounters.html#jungle-encounters",
+    "title": "Encounters",
+    "section": "Jungle Encounters",
+    "text": "Jungle Encounters\nRoll 1d6 every 4 hours (six times daily). On a roll of 1, roll below for an encounter.\n\n\n\n3d6\nJungle Encounter\n\n\n\n\n3\nJaguar or Crocodile (river) or hippo (river)\n\n\n4\nTerrain encounter\n\n\n5\nOcelot or otter (river)\n\n\n6\n1d4 apes\n\n\n7\n1d6 Explorers\n\n\n8\n1d12 Loggers\n\n\n9-11\nCorpse\n\n\n12\nTerrain encounter\n\n\n13-14\nInsect swarm\n\n\n15\n1d6 monkeys\n\n\n16\ngiant constrictor snake\n\n\n17-18\n1d4 snakes\n\n\n\n\nAdditional Options\n\nCorpse encounters roll separately for salvageable equipment.\nFor NPC encounters, roll for disposition\nMonkey encounters have a 1 in 3 chance for theft of an item\n\n\n\n\n\n\n\n\n3d6\nTerrain Encounter\n\n\n\n\n3\nRiver flood or rock slide\n\n\n4-7\nPath obstruction (delay or navigate around)\n\n\n8-10\nRiver crossing (roll again for encounter, ignore terrain encounters)\n\n\n11\nFresh water source (spring, abandoned waterskin, rain catcher, etc)\n\n\n12\nFruit baring tree\n\n\n13-14\nRare plant(s) (large flower, tall tree, etc)\n\n\n15\nHunter’s trap (1 in 3 chance of trapped animal)\n\n\n16\nPit trap\n\n\n17\nSpider webs covering path (ability check to avoid walking through)\n\n\n18\nWeather change (Rain starts/stops, heat increases/decreases)"
+  },
+  {
+    "objectID": "campaign/encounters.html#mine-encounters",
+    "href": "campaign/encounters.html#mine-encounters",
+    "title": "Encounters",
+    "section": "Mine Encounters",
+    "text": "Mine Encounters\nMines are mysteriously devoid of life. This area is largely exploration based. Roll 1d12 every hour of exploration. On a roll of 1, roll below for an encounter.\n\n\n\n\n\n\n\n3d6\nMine Encounter\n\n\n\n\n3-4\nTremor\n\n\n5-7\nSpider webs covering path (ability check to avoid walking through)\n\n\n8-10\nCorpse\n\n\n11\nSudden wind extinguishes unprotected light sources\n\n\n12\nSalvagable equipment\n\n\n13\n4d6 Bats\n\n\n14\nActive vein of …\n\n\n15\nUndead skeleton(s) (except on first exploration)\n\n\n16\nSpider drops onto random PC (ability check not to drop anything held)\n\n\n17\nOpen pit\n\n\n18\nTunnel collapse (ability check or take damage)"
+  },
+  {
+    "objectID": "campaign/encounters.html#cave-encounters",
+    "href": "campaign/encounters.html#cave-encounters",
+    "title": "Encounters",
+    "section": "Cave Encounters",
+    "text": "Cave Encounters\n\nCrystals\nExotic fungi (phosphorescent?)\nCliff/Gorge\nRuins\nShelter\nVent shaft\nUnderground stream\nWebs\nSlime/molds\nCarrion crawler\nGiant insect\nSpores\nGrick\nChuul\nPiercer\nLiving stone\nHook horror\nGelatinous Cube"
+  },
+  {
+    "objectID": "campaign/encounters.html#underwode-encounters",
+    "href": "campaign/encounters.html#underwode-encounters",
+    "title": "Encounters",
+    "section": "Underwode Encounters",
+    "text": "Underwode Encounters\nThese should mirror the jungle encounters but be distorted and alien in nature.\n\nDisplacer beast\nGirallon\nLizardfolk or grung or bullywogs\nDinosaurs\nWyvern\nCarnivorous plant\nPoisonous plant\nPlant mimic\nScouts/Hunters or hunting party\nStirges\nMushroom people\nGiant insect(s)\nEdibles\nFresh water\nBattery slime\nSalvagable equipment\nCorpse (futuristic gear)\nNaga\nChitine\nCranium rats\nFlail snail\nRoper\nEttercap or other spider-like humanoid\nDryad?\nCarnivorous slugs\nPhase spiders"
+  },
+  {
+    "objectID": "campaign/encounters.html#canyon-encounters",
+    "href": "campaign/encounters.html#canyon-encounters",
+    "title": "Encounters",
+    "section": "Canyon Encounters",
+    "text": "Canyon Encounters\n\nOgres/Fomorians/Ettins\nGoblins\nQuaggoth\nMorlocks\nHumanoid pets"
+  },
+  {
+    "objectID": "campaign/encounters.html#ruined-city-encounters",
+    "href": "campaign/encounters.html#ruined-city-encounters",
+    "title": "Encounters",
+    "section": "Ruined City Encounters",
+    "text": "Ruined City Encounters\n\nUndead, lots of undead\nAutomatons\nGargoyles?\nMindflayer?"
+  },
+  {
+    "objectID": "campaign/encounters.html#labyrinth-encounters",
+    "href": "campaign/encounters.html#labyrinth-encounters",
+    "title": "Encounters",
+    "section": "Labyrinth Encounters",
+    "text": "Labyrinth Encounters\n\nTraps\nAboleth?\nAboleth thralls\nAutomatons\nMindflayer tadpoles?\nDopplegangers?"
+  },
+  {
+    "objectID": "campaign/encounters.html#osr-bestiaries",
+    "href": "campaign/encounters.html#osr-bestiaries",
+    "title": "Encounters",
+    "section": "OSR Bestiaries",
+    "text": "OSR Bestiaries\n\nGoblinpunch\nBasic Fantasy\nVarlets and Vermin"
   },
   {
     "objectID": "index.html",
@@ -208,96 +313,5 @@
     "title": "Overview",
     "section": "Pyramid Labyrinth",
     "text": "Pyramid Labyrinth\n\nMaze like dungeon complex leading to a strange dock"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "A place to capture ideas for my next tabletop rpg campaign and homebrew rules"
-  },
-  {
-    "objectID": "campaign/mines.html",
-    "href": "campaign/mines.html",
-    "title": "Abandoned Mines",
-    "section": "",
-    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
-  },
-  {
-    "objectID": "campaign/mines.html#mine-pointcrawl",
-    "href": "campaign/mines.html#mine-pointcrawl",
-    "title": "Abandoned Mines",
-    "section": "",
-    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
-  },
-  {
-    "objectID": "campaign/encounters.html",
-    "href": "campaign/encounters.html",
-    "title": "Encounters",
-    "section": "",
-    "text": "Social encounters\nSights & Sounds encounters\nOverheard rumors\nSide quests?"
-  },
-  {
-    "objectID": "campaign/encounters.html#port-encounters",
-    "href": "campaign/encounters.html#port-encounters",
-    "title": "Encounters",
-    "section": "",
-    "text": "Social encounters\nSights & Sounds encounters\nOverheard rumors\nSide quests?"
-  },
-  {
-    "objectID": "campaign/encounters.html#jungle-encounters",
-    "href": "campaign/encounters.html#jungle-encounters",
-    "title": "Encounters",
-    "section": "Jungle Encounters",
-    "text": "Jungle Encounters\nRoll 1d6 every 4 hours (six times daily). On a roll of 1, roll below for an encounter.\n\n\n\n3d6\nJungle Encounter\n\n\n\n\n3\nJaguar or Crocodile (river) or hippo (river)\n\n\n4\nTerrain encounter\n\n\n5\nOcelot or otter (river)\n\n\n6\n1d4 apes\n\n\n7\n1d6 Explorers\n\n\n8\n1d12 Loggers\n\n\n9-11\nCorpse\n\n\n12\nTerrain encounter\n\n\n13-14\nInsect swarm\n\n\n15\n1d6 monkeys\n\n\n16\ngiant constrictor snake\n\n\n17-18\n1d4 snakes\n\n\n\n\nAdditional Options\n\nCorpse encounters roll separately for salvageable equipment.\nFor NPC encounters, roll for disposition\nMonkey encounters have a 1 in 3 chance for theft of an item\n\n\n\n\n\n\n\n\n3d6\nTerrain Encounter\n\n\n\n\n3\nRiver flood or rock slide\n\n\n4-7\nPath obstruction (delay or navigate around)\n\n\n8-10\nRiver crossing (roll again for encounter, ignore terrain encounters)\n\n\n11\nFresh water source (spring, abandoned waterskin, rain catcher, etc)\n\n\n12\nFruit baring tree\n\n\n13-14\nRare plant(s) (large flower, tall tree, etc)\n\n\n15\nHunter’s trap (1 in 3 chance of trapped animal)\n\n\n16\nPit trap\n\n\n17\nSpider webs covering path (ability check to avoid walking through)\n\n\n18\nWeather change (Rain starts/stops, heat increases/decreases)"
-  },
-  {
-    "objectID": "campaign/encounters.html#mine-encounters",
-    "href": "campaign/encounters.html#mine-encounters",
-    "title": "Encounters",
-    "section": "Mine Encounters",
-    "text": "Mine Encounters\nMines are mysteriously devoid of life. This area is largely exploration based. Roll 1d12 every hour of exploration. On a roll of 1, roll below for an encounter.\n\n\n\n\n\n\n\n3d6\nMine Encounter\n\n\n\n\n3-4\nTremor\n\n\n5-7\nSpider webs covering path (ability check to avoid walking through)\n\n\n8-10\nCorpse\n\n\n11\nSudden wind extinguishes unprotected light sources\n\n\n12\nSalvagable equipment\n\n\n13\n4d6 Bats\n\n\n14\nActive vein of …\n\n\n15\nUndead skeleton(s) (except on first exploration)\n\n\n16\nSpider drops onto random PC (ability check not to drop anything held)\n\n\n17\nOpen pit\n\n\n18\nTunnel collapse (ability check or take damage)"
-  },
-  {
-    "objectID": "campaign/encounters.html#cave-encounters",
-    "href": "campaign/encounters.html#cave-encounters",
-    "title": "Encounters",
-    "section": "Cave Encounters",
-    "text": "Cave Encounters\n\nCrystals\nExotic fungi (phosphorescent?)\nCliff/Gorge\nRuins\nShelter\nVent shaft\nUnderground stream\nWebs\nSlime/molds\nCarrion crawler\nGiant insect\nSpores\nGrick\nChuul\nPiercer\nLiving stone\nHook horror\nGelatinous Cube"
-  },
-  {
-    "objectID": "campaign/encounters.html#underwode-encounters",
-    "href": "campaign/encounters.html#underwode-encounters",
-    "title": "Encounters",
-    "section": "Underwode Encounters",
-    "text": "Underwode Encounters\nThese should mirror the jungle encounters but be distorted and alien in nature.\n\nDisplacer beast\nGirallon\nLizardfolk or grung or bullywogs\nDinosaurs\nWyvern\nCarnivorous plant\nPoisonous plant\nPlant mimic\nScouts/Hunters or hunting party\nStirges\nMushroom people\nGiant insect(s)\nEdibles\nFresh water\nBattery slime\nSalvagable equipment\nCorpse (futuristic gear)\nNaga\nChitine\nCranium rats\nFlail snail\nRoper\nEttercap or other spider-like humanoid\nDryad?\nCarnivorous slugs\nPhase spiders"
-  },
-  {
-    "objectID": "campaign/encounters.html#canyon-encounters",
-    "href": "campaign/encounters.html#canyon-encounters",
-    "title": "Encounters",
-    "section": "Canyon Encounters",
-    "text": "Canyon Encounters\n\nOgres/Fomorians/Ettins\nGoblins\nQuaggoth\nMorlocks\nHumanoid pets"
-  },
-  {
-    "objectID": "campaign/encounters.html#ruined-city-encounters",
-    "href": "campaign/encounters.html#ruined-city-encounters",
-    "title": "Encounters",
-    "section": "Ruined City Encounters",
-    "text": "Ruined City Encounters\n\nUndead, lots of undead\nAutomatons\nGargoyles?\nMindflayer?"
-  },
-  {
-    "objectID": "campaign/encounters.html#labyrinth-encounters",
-    "href": "campaign/encounters.html#labyrinth-encounters",
-    "title": "Encounters",
-    "section": "Labyrinth Encounters",
-    "text": "Labyrinth Encounters\n\nTraps\nAboleth?\nAboleth thralls\nAutomatons\nMindflayer tadpoles?\nDopplegangers?"
-  },
-  {
-    "objectID": "campaign/encounters.html#osr-bestiaries",
-    "href": "campaign/encounters.html#osr-bestiaries",
-    "title": "Encounters",
-    "section": "OSR Bestiaries",
-    "text": "OSR Bestiaries\n\nGoblinpunch\nBasic Fantasy\nVarlets and Vermin"
   }
 ]
