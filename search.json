@@ -28,6 +28,188 @@
     "text": "Locations\n\n\n\n\n\n\n\n\nLocation\nNPCs\nInfo\n\n\n\n\nTriboard Trail\n\nNorth entrance/exit\n\n\nEdermath Orchard\nDaran Edermath\nQuest: Old Owl Well\n\n\nBarthen’s Provisions\nElmar Barthen, Ander, Thistle\nNon-weapon/armor supplies\n\n\nStonehill Inn\nToblen Stonehill, Trilena, Elsa\nRumors/Lodgings/Food\n\n\nTown Square\nVarious\nJob board quests\n\n\nShrine of Luck\nSister Garaele\nQuest: The Banshee’s Bargain\n\n\nTownmaster’s Hall\nHarbin Wester\nQuests: Orc Trouble\n\n\nLionshield Coster\nLinene Graywind\nArmor/Weapons\n\n\nMiner’s Exchange\nHalia Thornton\nQuest: Eliminate Redbrands\n\n\nAlderleaf Farm\nQelline Alderleaf, Carp\nQuest: Reidoth the Druid, Carp’s Story\n\n\nThe Sleeping Giant\nGrista, Redbrands\nRedbrand Ruffians\n\n\nTresendar Manor\nGlasstaff, Redbrands\nRedbrand Hideout\n\n\nMiner’s Trail\n\nSouth entrance/exit"
   },
   {
+    "objectID": "phandalin/overview.html",
+    "href": "phandalin/overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "graph TD\n  subgraph phandalin\n    3{Phandalin}\n  end\n  subgraph phandelver\n    1(Goblin Ambush) --&gt; 2a(Cragmaw Hideout)\n    2a --&gt; 3\n    3 --&gt; 4(Old Owl Well)\n    4 --&gt; 5(Wyvern Tor)\n    3 --&gt; 6(Redbrand Hideout)\n    6 --&gt; 2b[[Cragmaw Castle]]\n    3 --&gt; 7a(Ruins of Thundertree)\n    7a --&gt; 7b(Green Dragon)\n    7b --&gt; 2b\n    3 --&gt; 8(Agatha's Lair)\n    2b --&gt; 9((Wave Echo Cave))\n    8 --&gt; 9\n    7b --&gt; 9\n  end\n  subgraph icespire\n    3 --&gt; 10(Gnomengarde)\n    3 --&gt; 11(Umbrage Hill)\n    3 --&gt; 12(Dwarven Excavation)\n    3 --&gt; 13(Tower of Storms)\n    10 & 11 & 12--&gt; 14(Butterskull Ranch)\n    14 --&gt; 5\n    10 & 11 & 12 --&gt; 15a(Logger's Camp)\n    10 & 11 & 12 --&gt; 16(Mountain's Toe Mine)\n    15a --&gt; 15b(Hunter's Lodge)\n    14 & 15a & 16 --&gt; 17(Axeholm)\n    14 & 15a & 16 --&gt; 18[[Dragon's Barrow]]\n    14 & 15a & 16 --&gt; 19[[Woodland Manse]]\n    15b --&gt; 19\n    18 & 19 & 5 --&gt; 20((Circle of Thunder))\n    20 --&gt; 7b\n    5 & 14 --&gt; 21(((Orc Attack))) --&gt; 3\n    21 --&gt; 22((Icespire Hold))\n    7b --&gt; 22\n    23(((Dragon Attack))) --&gt; 17 & 3\n  end"
+  },
+  {
+    "objectID": "phandalin/overview.html#combining-the-lost-mines-of-phandelver-and-the-dragon-of-icespire-peak",
+    "href": "phandalin/overview.html#combining-the-lost-mines-of-phandelver-and-the-dragon-of-icespire-peak",
+    "title": "Overview",
+    "section": "",
+    "text": "graph TD\n  subgraph phandalin\n    3{Phandalin}\n  end\n  subgraph phandelver\n    1(Goblin Ambush) --&gt; 2a(Cragmaw Hideout)\n    2a --&gt; 3\n    3 --&gt; 4(Old Owl Well)\n    4 --&gt; 5(Wyvern Tor)\n    3 --&gt; 6(Redbrand Hideout)\n    6 --&gt; 2b[[Cragmaw Castle]]\n    3 --&gt; 7a(Ruins of Thundertree)\n    7a --&gt; 7b(Green Dragon)\n    7b --&gt; 2b\n    3 --&gt; 8(Agatha's Lair)\n    2b --&gt; 9((Wave Echo Cave))\n    8 --&gt; 9\n    7b --&gt; 9\n  end\n  subgraph icespire\n    3 --&gt; 10(Gnomengarde)\n    3 --&gt; 11(Umbrage Hill)\n    3 --&gt; 12(Dwarven Excavation)\n    3 --&gt; 13(Tower of Storms)\n    10 & 11 & 12--&gt; 14(Butterskull Ranch)\n    14 --&gt; 5\n    10 & 11 & 12 --&gt; 15a(Logger's Camp)\n    10 & 11 & 12 --&gt; 16(Mountain's Toe Mine)\n    15a --&gt; 15b(Hunter's Lodge)\n    14 & 15a & 16 --&gt; 17(Axeholm)\n    14 & 15a & 16 --&gt; 18[[Dragon's Barrow]]\n    14 & 15a & 16 --&gt; 19[[Woodland Manse]]\n    15b --&gt; 19\n    18 & 19 & 5 --&gt; 20((Circle of Thunder))\n    20 --&gt; 7b\n    5 & 14 --&gt; 21(((Orc Attack))) --&gt; 3\n    21 --&gt; 22((Icespire Hold))\n    7b --&gt; 22\n    23(((Dragon Attack))) --&gt; 17 & 3\n  end"
+  },
+  {
+    "objectID": "phandalin/goblin_arrows.html",
+    "href": "phandalin/goblin_arrows.html",
+    "title": "Goblin Arrows",
+    "section": "",
+    "text": "Party was hired as mercenaries to guard a caravan shipment of mining supplies and food from Neverwinter to the frontier town of Phandalin by a dwarf called Gundren Rockseeker along with Gundren’s bodyguard, Sildar Hallwinter. They are accompanied by two prospectors, Pickled Pete and Talon Thornwild.\nOn the morning of the second day of the journey, the caravan is attacked by a White Dragon (Cryovain). Gundren’s horse is spooked and takes off with Gundren on it. Sildar, chases after him. The dragon uses its ice cold breath to freeze one of the prospectors, Talon, that was accompanying the group to Phandalin. He is left as a solid ice scuplture after the attack.\nThe dragon makes off with one of the oxen pulling the cart of supplies and lifts the whole cart into the air along with the other ox before the oxen’s leads snap and the cart and all its contents crash to the ground. The dragon flies off with its meal and can be seen flying towards the Sword Mountains to the south.\nThe group must calm the remaining ox and reload the cart before following to see where Gundren and Sildar have gotten to. Once the begin catching up, they come around a bend only to spot two dead horses ahead.\nThe saddlebags have been looted and neaby lies an empty map case."
+  },
+  {
+    "objectID": "phandalin/goblin_arrows.html#background",
+    "href": "phandalin/goblin_arrows.html#background",
+    "title": "Goblin Arrows",
+    "section": "",
+    "text": "Party was hired as mercenaries to guard a caravan shipment of mining supplies and food from Neverwinter to the frontier town of Phandalin by a dwarf called Gundren Rockseeker along with Gundren’s bodyguard, Sildar Hallwinter. They are accompanied by two prospectors, Pickled Pete and Talon Thornwild.\nOn the morning of the second day of the journey, the caravan is attacked by a White Dragon (Cryovain). Gundren’s horse is spooked and takes off with Gundren on it. Sildar, chases after him. The dragon uses its ice cold breath to freeze one of the prospectors, Talon, that was accompanying the group to Phandalin. He is left as a solid ice scuplture after the attack.\nThe dragon makes off with one of the oxen pulling the cart of supplies and lifts the whole cart into the air along with the other ox before the oxen’s leads snap and the cart and all its contents crash to the ground. The dragon flies off with its meal and can be seen flying towards the Sword Mountains to the south.\nThe group must calm the remaining ox and reload the cart before following to see where Gundren and Sildar have gotten to. Once the begin catching up, they come around a bend only to spot two dead horses ahead.\nThe saddlebags have been looted and neaby lies an empty map case."
+  },
+  {
+    "objectID": "phandalin/goblin_arrows.html#goblin-ambush",
+    "href": "phandalin/goblin_arrows.html#goblin-ambush",
+    "title": "Goblin Arrows",
+    "section": "Goblin Ambush",
+    "text": "Goblin Ambush\nFour goblins ambush the party from all sides.\nRoll goblin stealth check (+6). Anyone with passive perception lower than rolls is surprised.\n\n\nGoblin Tactics\nTwo rush forward for melee, while the other two attack from above with their bows.\n\n\n\n\n\n\n\n\n\nDevelopments\n\nFind goblin trail to Cragmaw Hideout\nCapture goblin can lead them to hideout\nRest\nContinue to Phandalin"
+  },
+  {
+    "objectID": "campaign/mines.html",
+    "href": "campaign/mines.html",
+    "title": "Abandoned Mines",
+    "section": "",
+    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
+  },
+  {
+    "objectID": "campaign/mines.html#mine-pointcrawl",
+    "href": "campaign/mines.html#mine-pointcrawl",
+    "title": "Abandoned Mines",
+    "section": "",
+    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
+  },
+  {
+    "objectID": "rules/skills.html",
+    "href": "rules/skills.html",
+    "title": "Skills",
+    "section": "",
+    "text": "skilled bonus tied to advancement\nskills tied to ability scores (highest is skilled)\nknowledge skills (set number chosen during character creation)"
+  },
+  {
+    "objectID": "rules/skills.html#unskilled-vs-skilled",
+    "href": "rules/skills.html#unskilled-vs-skilled",
+    "title": "Skills",
+    "section": "",
+    "text": "skilled bonus tied to advancement\nskills tied to ability scores (highest is skilled)\nknowledge skills (set number chosen during character creation)"
+  },
+  {
+    "objectID": "rules/training.html",
+    "href": "rules/training.html",
+    "title": "Training",
+    "section": "",
+    "text": "Personal history/background before becoming an adventurer.\n\nApprentice\nArtisan\nCaptive\nClergy\nHealer\nMan-at-arms\nMerchant\nMinstrel\nNoble\nNomad\nOutlaw\nPeasant\nRetainer\nSailor\nScholar"
+  },
+  {
+    "objectID": "rules/advancement.html",
+    "href": "rules/advancement.html",
+    "title": "Advancement",
+    "section": "",
+    "text": "#\nTier\nXP\n\n\n\n\n1.\nNovice\n0\n\n\n2.\nAdventurer\n10\n\n\n3.\nHero\n50\n\n\n4.\nLeader\n100\n\n\n5.\nParagon\n1000"
+  },
+  {
+    "objectID": "rules/advancement.html#tiers",
+    "href": "rules/advancement.html#tiers",
+    "title": "Advancement",
+    "section": "",
+    "text": "#\nTier\nXP\n\n\n\n\n1.\nNovice\n0\n\n\n2.\nAdventurer\n10\n\n\n3.\nHero\n50\n\n\n4.\nLeader\n100\n\n\n5.\nParagon\n1000"
+  },
+  {
+    "objectID": "rules/advancement.html#types-of-experience",
+    "href": "rules/advancement.html#types-of-experience",
+    "title": "Advancement",
+    "section": "Types of Experience",
+    "text": "Types of Experience\nExperience is gained for the following scenarios:\n\nDefeat of a significant foe (not minions)\nIncreasing wealth level\nAccomplishing a major goal\nSurviving a significant defeat (permanent wounds incurred)"
+  },
+  {
+    "objectID": "rules/advancement.html#increasing-tier",
+    "href": "rules/advancement.html#increasing-tier",
+    "title": "Advancement",
+    "section": "Increasing Tier",
+    "text": "Increasing Tier\nAt each tier new boons are granted.\n\nAdventurer\n\nIncrease HP by 1d6\nRenown increases by 1\nGain 2 ability points\nChoose 2 new feats\n\n\n\nHero\n\nIncrease HP by 1d6\nRenown increases by 2\nGain 2 ability points\nChoose 2 new feats\nAdd 1 knowledge skill\n\n\n\nLeader\n\nIncrease HP by 1d6\nRenown increased by 5\nChoose 2 new feats\nGain 1d6 additional followers (in addition to any gained via renown)\n\n\n\nParagon\n\nIncrease HP by 1d6\nRenown increased by 10\nChoose 1 new feat\nGain epic boon"
+  },
+  {
+    "objectID": "rules/equipment.html",
+    "href": "rules/equipment.html",
+    "title": "Equipment",
+    "section": "",
+    "text": "Starting packs\nShopping list\nUsages"
+  },
+  {
+    "objectID": "rules/abilities.html",
+    "href": "rules/abilities.html",
+    "title": "Abilities",
+    "section": "",
+    "text": "Category\nName\nDescription\n\n\n\n\nPhysical\nMuscle\nstrength and fitness\n\n\n\nAgility\nability to respond quickly\n\n\n\nFortitude\nhealth and pain tolerance\n\n\nMental\nAcuity\nperceptive senses (sight, hearing)\n\n\n\nInsight\nintuition and wisdom\n\n\n\nIntellect\ngeneral intelligence and abstract thinking\n\n\nWill\nCourage\nmental fortitude and resistance to fear\n\n\n\nMagnetism\nability to attract others and inspire confidence\n\n\n\nSpirit\ncapacity for and resistance to magical forces\n\n\n\nGenerating Abilities * Each ability has a bonus or penalty ranging from -5 to +5 * Each ability starts at 0 * No more than one ability can be +4 to start * A new character has 10 points to spend to adjust any ability up to a max of +3 * Reducing a starting ability allows the player to spend those points elsewhere * No starting ability may be less than -2\nOptional Rules * For increased challenge, reduce starting points to 8 (and set min to -3) * For decreased challenge, increase starting points to 12 (and set min to -1)\n\nAlternate\n\n4 abilities scores: strength, agility, acuity, will"
+  },
+  {
+    "objectID": "rules/adventuring.html",
+    "href": "rules/adventuring.html",
+    "title": "Adventuring",
+    "section": "",
+    "text": "Ability checks\nAdvantage\nOverland Exploration/Travel\nDungeoncrawling\nFood and water\nSocial Interactions\nRest & Healing\nDowntime"
+  },
+  {
+    "objectID": "rules/magic.html",
+    "href": "rules/magic.html",
+    "title": "Magic",
+    "section": "",
+    "text": "Spells\nMagic Items\nWild magic effects"
+  },
+  {
+    "objectID": "rules/adversaries.html",
+    "href": "rules/adversaries.html",
+    "title": "Adversaries",
+    "section": "",
+    "text": "Beastiary\nNPCs\nFactions\nRandom Encounter tables"
+  },
+  {
+    "objectID": "rules/wealth.html",
+    "href": "rules/wealth.html",
+    "title": "Wealth",
+    "section": "",
+    "text": "Coinage is indicated in units of sovereign pieces (sp). The wealth level of characters is determined by the value of their available assets (including strongholds).\n\n\n\n\n\n#\nDescription\nSP Increment\nSP Min\n\n\n\n\n1-5\nPoor\n100\n0\n\n\n6-19\nModest\n1,000\n500\n\n\n20-39\nComfortable\n10,000\n14,500\n\n\n40-59\nWealthy\n100,000\n194,500\n\n\n60-99\nNoble\n250,000\n2,094,500\n\n\n100+\nSovereign\n1,000,000\n11,844,500"
+  },
+  {
+    "objectID": "rules/wealth.html#wealth-levels",
+    "href": "rules/wealth.html#wealth-levels",
+    "title": "Wealth",
+    "section": "",
+    "text": "#\nDescription\nSP Increment\nSP Min\n\n\n\n\n1-5\nPoor\n100\n0\n\n\n6-19\nModest\n1,000\n500\n\n\n20-39\nComfortable\n10,000\n14,500\n\n\n40-59\nWealthy\n100,000\n194,500\n\n\n60-99\nNoble\n250,000\n2,094,500\n\n\n100+\nSovereign\n1,000,000\n11,844,500"
+  },
+  {
+    "objectID": "rules/lineage.html",
+    "href": "rules/lineage.html",
+    "title": "Lineage",
+    "section": "",
+    "text": "Human cultures\nFey (elves, fawns, etc)\nDark-fey (goblins, ogres, giants)\nSpirit (angelic like)\nDark-spirit (demonic like)"
+  },
+  {
+    "objectID": "rules/combat.html",
+    "href": "rules/combat.html",
+    "title": "Combat",
+    "section": "",
+    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
+  },
+  {
+    "objectID": "rules/combat.html#attacking",
+    "href": "rules/combat.html#attacking",
+    "title": "Combat",
+    "section": "",
+    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
+  },
+  {
+    "objectID": "rules/combat.html#injuries",
+    "href": "rules/combat.html#injuries",
+    "title": "Combat",
+    "section": "Injuries",
+    "text": "Injuries\n\nbleeding\nweakened\nimmobile\nblind"
+  },
+  {
+    "objectID": "rules/combat.html#alternates",
+    "href": "rules/combat.html#alternates",
+    "title": "Combat",
+    "section": "alternates",
+    "text": "alternates\n\nHP and armor absorb damage\ndamage beyond that affects ability scores"
+  },
+  {
     "objectID": "campaign/encounters.html",
     "href": "campaign/encounters.html",
     "title": "Encounters",
@@ -98,165 +280,25 @@
     "text": "OSR Bestiaries\n\nGoblinpunch\nBasic Fantasy\nVarlets and Vermin"
   },
   {
-    "objectID": "rules/combat.html",
-    "href": "rules/combat.html",
-    "title": "Combat",
+    "objectID": "phandalin/cragmaw_hideout.html",
+    "href": "phandalin/cragmaw_hideout.html",
+    "title": "Cragmaw Hideout",
     "section": "",
-    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
+    "text": "The trail leads five miles northwest of ambush location.\nAlong the trail the spot a snare that has been sprung. Hanging upside down 10 feet above the ground is a minstrel of some sort. His fiddle is on the ground below him. He begs for the party to free him. His name is Galandro, and he was headed to Phandalin for a gig at the Stonehill Inn when he stumbled into this trap a few hours ago. He says he was distracted by a white dragon flying overhead with an ox in its claws.\nAnother ten minutes down the trail there is a camouflaged pit trap (perception DC 15 to spot). If not spotted then lead character must make Dextirity check DC 10 or fall in and take 1d6 damage."
   },
   {
-    "objectID": "rules/combat.html#attacking",
-    "href": "rules/combat.html#attacking",
-    "title": "Combat",
+    "objectID": "phandalin/cragmaw_hideout.html#goblin-trail",
+    "href": "phandalin/cragmaw_hideout.html#goblin-trail",
+    "title": "Cragmaw Hideout",
     "section": "",
-    "text": "dodge score (10+Agility bonus)\narmor score (dodge score + armor bonus)\nweapon bonus (each weapon has a bonus from +1 to +10)\nroll 1d20 + attack bonus + weapon bonus to hit\nif higher than dodge but less than armor score, armor absorbs damage and armor score reduced by 1\nif higher than armor score, target is injured (roll on injury table)"
+    "text": "The trail leads five miles northwest of ambush location.\nAlong the trail the spot a snare that has been sprung. Hanging upside down 10 feet above the ground is a minstrel of some sort. His fiddle is on the ground below him. He begs for the party to free him. His name is Galandro, and he was headed to Phandalin for a gig at the Stonehill Inn when he stumbled into this trap a few hours ago. He says he was distracted by a white dragon flying overhead with an ox in its claws.\nAnother ten minutes down the trail there is a camouflaged pit trap (perception DC 15 to spot). If not spotted then lead character must make Dextirity check DC 10 or fall in and take 1d6 damage."
   },
   {
-    "objectID": "rules/combat.html#injuries",
-    "href": "rules/combat.html#injuries",
-    "title": "Combat",
-    "section": "Injuries",
-    "text": "Injuries\n\nbleeding\nweakened\nimmobile\nblind"
-  },
-  {
-    "objectID": "rules/combat.html#alternates",
-    "href": "rules/combat.html#alternates",
-    "title": "Combat",
-    "section": "alternates",
-    "text": "alternates\n\nHP and armor absorb damage\ndamage beyond that affects ability scores"
-  },
-  {
-    "objectID": "rules/lineage.html",
-    "href": "rules/lineage.html",
-    "title": "Lineage",
-    "section": "",
-    "text": "Human cultures\nFey (elves, fawns, etc)\nDark-fey (goblins, ogres, giants)\nSpirit (angelic like)\nDark-spirit (demonic like)"
-  },
-  {
-    "objectID": "rules/wealth.html",
-    "href": "rules/wealth.html",
-    "title": "Wealth",
-    "section": "",
-    "text": "Coinage is indicated in units of sovereign pieces (sp). The wealth level of characters is determined by the value of their available assets (including strongholds).\n\n\n\n\n\n#\nDescription\nSP Increment\nSP Min\n\n\n\n\n1-5\nPoor\n100\n0\n\n\n6-19\nModest\n1,000\n500\n\n\n20-39\nComfortable\n10,000\n14,500\n\n\n40-59\nWealthy\n100,000\n194,500\n\n\n60-99\nNoble\n250,000\n2,094,500\n\n\n100+\nSovereign\n1,000,000\n11,844,500"
-  },
-  {
-    "objectID": "rules/wealth.html#wealth-levels",
-    "href": "rules/wealth.html#wealth-levels",
-    "title": "Wealth",
-    "section": "",
-    "text": "#\nDescription\nSP Increment\nSP Min\n\n\n\n\n1-5\nPoor\n100\n0\n\n\n6-19\nModest\n1,000\n500\n\n\n20-39\nComfortable\n10,000\n14,500\n\n\n40-59\nWealthy\n100,000\n194,500\n\n\n60-99\nNoble\n250,000\n2,094,500\n\n\n100+\nSovereign\n1,000,000\n11,844,500"
-  },
-  {
-    "objectID": "rules/adversaries.html",
-    "href": "rules/adversaries.html",
-    "title": "Adversaries",
-    "section": "",
-    "text": "Beastiary\nNPCs\nFactions\nRandom Encounter tables"
-  },
-  {
-    "objectID": "rules/magic.html",
-    "href": "rules/magic.html",
-    "title": "Magic",
-    "section": "",
-    "text": "Spells\nMagic Items\nWild magic effects"
-  },
-  {
-    "objectID": "rules/adventuring.html",
-    "href": "rules/adventuring.html",
-    "title": "Adventuring",
-    "section": "",
-    "text": "Ability checks\nAdvantage\nOverland Exploration/Travel\nDungeoncrawling\nFood and water\nSocial Interactions\nRest & Healing\nDowntime"
-  },
-  {
-    "objectID": "rules/abilities.html",
-    "href": "rules/abilities.html",
-    "title": "Abilities",
-    "section": "",
-    "text": "Category\nName\nDescription\n\n\n\n\nPhysical\nMuscle\nstrength and fitness\n\n\n\nAgility\nability to respond quickly\n\n\n\nFortitude\nhealth and pain tolerance\n\n\nMental\nAcuity\nperceptive senses (sight, hearing)\n\n\n\nInsight\nintuition and wisdom\n\n\n\nIntellect\ngeneral intelligence and abstract thinking\n\n\nWill\nCourage\nmental fortitude and resistance to fear\n\n\n\nMagnetism\nability to attract others and inspire confidence\n\n\n\nSpirit\ncapacity for and resistance to magical forces\n\n\n\nGenerating Abilities * Each ability has a bonus or penalty ranging from -5 to +5 * Each ability starts at 0 * No more than one ability can be +4 to start * A new character has 10 points to spend to adjust any ability up to a max of +3 * Reducing a starting ability allows the player to spend those points elsewhere * No starting ability may be less than -2\nOptional Rules * For increased challenge, reduce starting points to 8 (and set min to -3) * For decreased challenge, increase starting points to 12 (and set min to -1)\n\nAlternate\n\n4 abilities scores: strength, agility, acuity, will"
-  },
-  {
-    "objectID": "rules/equipment.html",
-    "href": "rules/equipment.html",
-    "title": "Equipment",
-    "section": "",
-    "text": "Starting packs\nShopping list\nUsages"
-  },
-  {
-    "objectID": "rules/advancement.html",
-    "href": "rules/advancement.html",
-    "title": "Advancement",
-    "section": "",
-    "text": "#\nTier\nXP\n\n\n\n\n1.\nNovice\n0\n\n\n2.\nAdventurer\n10\n\n\n3.\nHero\n50\n\n\n4.\nLeader\n100\n\n\n5.\nParagon\n1000"
-  },
-  {
-    "objectID": "rules/advancement.html#tiers",
-    "href": "rules/advancement.html#tiers",
-    "title": "Advancement",
-    "section": "",
-    "text": "#\nTier\nXP\n\n\n\n\n1.\nNovice\n0\n\n\n2.\nAdventurer\n10\n\n\n3.\nHero\n50\n\n\n4.\nLeader\n100\n\n\n5.\nParagon\n1000"
-  },
-  {
-    "objectID": "rules/advancement.html#types-of-experience",
-    "href": "rules/advancement.html#types-of-experience",
-    "title": "Advancement",
-    "section": "Types of Experience",
-    "text": "Types of Experience\nExperience is gained for the following scenarios:\n\nDefeat of a significant foe (not minions)\nIncreasing wealth level\nAccomplishing a major goal\nSurviving a significant defeat (permanent wounds incurred)"
-  },
-  {
-    "objectID": "rules/advancement.html#increasing-tier",
-    "href": "rules/advancement.html#increasing-tier",
-    "title": "Advancement",
-    "section": "Increasing Tier",
-    "text": "Increasing Tier\nAt each tier new boons are granted.\n\nAdventurer\n\nIncrease HP by 1d6\nRenown increases by 1\nGain 2 ability points\nChoose 2 new feats\n\n\n\nHero\n\nIncrease HP by 1d6\nRenown increases by 2\nGain 2 ability points\nChoose 2 new feats\nAdd 1 knowledge skill\n\n\n\nLeader\n\nIncrease HP by 1d6\nRenown increased by 5\nChoose 2 new feats\nGain 1d6 additional followers (in addition to any gained via renown)\n\n\n\nParagon\n\nIncrease HP by 1d6\nRenown increased by 10\nChoose 1 new feat\nGain epic boon"
-  },
-  {
-    "objectID": "rules/training.html",
-    "href": "rules/training.html",
-    "title": "Training",
-    "section": "",
-    "text": "Personal history/background before becoming an adventurer.\n\nApprentice\nArtisan\nCaptive\nClergy\nHealer\nMan-at-arms\nMerchant\nMinstrel\nNoble\nNomad\nOutlaw\nPeasant\nRetainer\nSailor\nScholar"
-  },
-  {
-    "objectID": "rules/skills.html",
-    "href": "rules/skills.html",
-    "title": "Skills",
-    "section": "",
-    "text": "skilled bonus tied to advancement\nskills tied to ability scores (highest is skilled)\nknowledge skills (set number chosen during character creation)"
-  },
-  {
-    "objectID": "rules/skills.html#unskilled-vs-skilled",
-    "href": "rules/skills.html#unskilled-vs-skilled",
-    "title": "Skills",
-    "section": "",
-    "text": "skilled bonus tied to advancement\nskills tied to ability scores (highest is skilled)\nknowledge skills (set number chosen during character creation)"
-  },
-  {
-    "objectID": "campaign/mines.html",
-    "href": "campaign/mines.html",
-    "title": "Abandoned Mines",
-    "section": "",
-    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
-  },
-  {
-    "objectID": "campaign/mines.html#mine-pointcrawl",
-    "href": "campaign/mines.html#mine-pointcrawl",
-    "title": "Abandoned Mines",
-    "section": "",
-    "text": "Uppermost level is devoid of any signs of life. Elevator must be repaired using spare parts found in the workshop, processing room, and dig sites to safely traverse to level 2.\n\n\n\n\ngraph TB\n  subgraph L1[level 1]\n    1(entrance tunnel) --&gt; 2(dig sites)\n    1 --&gt; 3{{tool room}}\n    3 --&gt; 4{{workshop}}\n    4 --&gt; 4a{{galley}}\n    4 --&gt; 4b{{offices}}\n    4 --&gt; 5\n    2 --&gt; 5(processing room)\n    2 --&gt; 6(waste rock dump)\n    5 --&gt; 7(dig sites)\n    6 --&gt; 7\n    7 --&gt; 8a(open shaft level 1)\n    6 --&gt; 8a\n    8a --&gt; 9(broken elevator)\n  end\n  subgraph L2[level 2]\n    9 --&gt; 10(elevator landing)\n    11(dig sites) --&gt; 10\n    8a ==&gt; 8b(open shaft level 2)\n    10 --&gt; 8b \n    8b --rope bridge--&gt; 12(dig sites)\n    13(break area) --&gt; 12\n    12 --&gt; 14(long descent)\n  end\n  subgraph L3[level 3]\n    14 --&gt; 15(cliff stairs)\n    8b ==&gt; 8c(open shaft level 3)\n    8c --&gt; 16(warrens)\n    15 --&gt; 16\n    16 --&gt; 17(underdark entrance)\n    18(strange door) -.-&gt; 15\n  end"
-  },
-  {
-    "objectID": "phandalin/overview.html",
-    "href": "phandalin/overview.html",
-    "title": "Overview",
-    "section": "",
-    "text": "graph TD\n  subgraph phandalin\n    3{Phandalin}\n  end\n  subgraph phandelver\n    1(Goblin Ambush) --&gt; 2a(Cragmaw Hideout)\n    2a --&gt; 3\n    3 --&gt; 4(Old Owl Well)\n    4 --&gt; 5(Wyvern Tor)\n    3 --&gt; 6(Redbrand Hideout)\n    6 --&gt; 2b[[Cragmaw Castle]]\n    3 --&gt; 7a(Ruins of Thundertree)\n    7a --&gt; 7b(Green Dragon)\n    7b --&gt; 2b\n    3 --&gt; 8(Agatha's Lair)\n    2b --&gt; 9((Wave Echo Cave))\n    8 --&gt; 9\n    7b --&gt; 9\n  end\n  subgraph icespire\n    3 --&gt; 10(Gnomengarde)\n    3 --&gt; 11(Umbrage Hill)\n    3 --&gt; 12(Dwarven Excavation)\n    3 --&gt; 13(Tower of Storms)\n    10 & 11 & 12--&gt; 14(Butterskull Ranch)\n    14 --&gt; 5\n    10 & 11 & 12 --&gt; 15a(Logger's Camp)\n    10 & 11 & 12 --&gt; 16(Mountain's Toe Mine)\n    15a --&gt; 15b(Hunter's Lodge)\n    14 & 15a & 16 --&gt; 17(Axeholm)\n    14 & 15a & 16 --&gt; 18[[Dragon's Barrow]]\n    14 & 15a & 16 --&gt; 19[[Woodland Manse]]\n    15b --&gt; 19\n    18 & 19 & 5 --&gt; 20((Circle of Thunder))\n    20 --&gt; 7b\n    5 & 14 --&gt; 21(((Orc Attack))) --&gt; 3\n    21 --&gt; 22((Icespire Hold))\n    7b --&gt; 22\n    23(((Dragon Attack))) --&gt; 17 & 3\n  end"
-  },
-  {
-    "objectID": "phandalin/overview.html#combining-the-lost-mines-of-phandelver-and-the-dragon-of-icespire-peak",
-    "href": "phandalin/overview.html#combining-the-lost-mines-of-phandelver-and-the-dragon-of-icespire-peak",
-    "title": "Overview",
-    "section": "",
-    "text": "graph TD\n  subgraph phandalin\n    3{Phandalin}\n  end\n  subgraph phandelver\n    1(Goblin Ambush) --&gt; 2a(Cragmaw Hideout)\n    2a --&gt; 3\n    3 --&gt; 4(Old Owl Well)\n    4 --&gt; 5(Wyvern Tor)\n    3 --&gt; 6(Redbrand Hideout)\n    6 --&gt; 2b[[Cragmaw Castle]]\n    3 --&gt; 7a(Ruins of Thundertree)\n    7a --&gt; 7b(Green Dragon)\n    7b --&gt; 2b\n    3 --&gt; 8(Agatha's Lair)\n    2b --&gt; 9((Wave Echo Cave))\n    8 --&gt; 9\n    7b --&gt; 9\n  end\n  subgraph icespire\n    3 --&gt; 10(Gnomengarde)\n    3 --&gt; 11(Umbrage Hill)\n    3 --&gt; 12(Dwarven Excavation)\n    3 --&gt; 13(Tower of Storms)\n    10 & 11 & 12--&gt; 14(Butterskull Ranch)\n    14 --&gt; 5\n    10 & 11 & 12 --&gt; 15a(Logger's Camp)\n    10 & 11 & 12 --&gt; 16(Mountain's Toe Mine)\n    15a --&gt; 15b(Hunter's Lodge)\n    14 & 15a & 16 --&gt; 17(Axeholm)\n    14 & 15a & 16 --&gt; 18[[Dragon's Barrow]]\n    14 & 15a & 16 --&gt; 19[[Woodland Manse]]\n    15b --&gt; 19\n    18 & 19 & 5 --&gt; 20((Circle of Thunder))\n    20 --&gt; 7b\n    5 & 14 --&gt; 21(((Orc Attack))) --&gt; 3\n    21 --&gt; 22((Icespire Hold))\n    7b --&gt; 22\n    23(((Dragon Attack))) --&gt; 17 & 3\n  end"
+    "objectID": "phandalin/cragmaw_hideout.html#locations",
+    "href": "phandalin/cragmaw_hideout.html#locations",
+    "title": "Cragmaw Hideout",
+    "section": "Locations",
+    "text": "Locations\n\n\n\n\n#\nLocation\nThreats\n\n\n\n\n1\nCave Mouth\nStream\n\n\n2\nGoblin Blind\n2 goblins in thicket\n\n\n3\nKennel\n3 wolves\n\n\n4\nSteep Passage\ngoblin sentry\n\n\n5\nOverpass\nFlood\n\n\n6\nGoblin Den\n6 goblins, Yeemik\n\n\n7\nTwin Pools Cave\n3 goblins\n\n\n8\nKlarg’s Cave\nBugbear, wolf, 2 goblins"
   },
   {
     "objectID": "index.html",
