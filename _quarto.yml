@@ -14,6 +14,7 @@ website:
       - section: "Phandalin"
         contents:
           - phandalin/overview.qmd
+          - phandalin/town.qmd
       - section: "Campaign"
         contents:
           - index.qmd

@@ -1,0 +1,26 @@
+---
+title: "Town"
+---
+![](Phandelverobservers.webp)
+A modest town of hard-working frontiersfolk built atop the ruins of the old Phandalin.The town has about fifty well-maintained structures built of logs and flagstones with three deep wells providing water. The town is dominated by an apple orchard on the west side and a ruined manor atop a hill to the east. The townsfolk congregate in a small town square and an adjacent town green.
+
+## Phandalin Map
+![](map.webp)
+
+## Locations
+
+|Location|NPCs|Info|
+|---|---|---|
+|Triboard Trail||North entrance/exit|
+|Edermath Orchard|Daran Edermath|**Quest**: Old Owl Well|
+|Barthen's Provisions|Elmar Barthen, Ander, Thistle|Non-weapon/armor supplies|
+|Stonehill Inn|Toblen Stonehill, Trilena, Elsa|Rumors/Lodgings/Food|
+|Town Square|Various|Job board quests|
+|Shrine of Luck|Sister Garaele|**Quest**: The Banshee's Bargain|
+|Townmaster's Hall|Harbin Wester|**Quests**: Orc Trouble|
+|Lionshield Coster|Linene Graywind|Armor/Weapons|
+|Miner's Exchange|Halia Thornton|**Quest**: Eliminate Redbrands|
+|Alderleaf Farm|Qelline Alderleaf, Carp|**Quest**: Reidoth the Druid, Carp's Story|
+|The Sleeping Giant|Grista, Redbrands|Redbrand Ruffians|
+|Tresendar Manor|Glasstaff, Redbrands|Redbrand Hideout|
+|Miner's Trail||South entrance/exit|
