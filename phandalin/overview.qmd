@@ -1,7 +1,5 @@
 ---
 title: "Overview"
-aliases:
-    - phandalin/index.qmd
 format:
   html:
     mermaid:
