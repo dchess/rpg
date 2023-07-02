@@ -13,7 +13,7 @@ website:
     contents:
       - section: "Phandalin"
         contents:
-          - phandalin/index.qmd
+          - phandalin/overview.qmd
       - section: "Campaign"
         contents:
           - index.qmd
