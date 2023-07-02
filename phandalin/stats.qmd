@@ -1,0 +1,9 @@
+:::{layout-ncol=2}
+![](bugbear_stat_block.jpeg)
+
+![](Wolf_Statblock.jpeg)
+
+![](goblin-stat-block.jpeg)
+
+![](goblin-boss-stat-block.jpeg)
+:::

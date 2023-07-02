@@ -1,0 +1,39 @@
+---
+title: "Goblin Arrows"
+---
+
+## Background
+Party was hired as mercenaries to guard a caravan shipment of mining supplies and food from Neverwinter
+to the frontier town of Phandalin by a dwarf called Gundren Rockseeker along with Gundren's bodyguard, Sildar Hallwinter. They are accompanied by two prospectors, Pickled Pete and Talon Thornwild.
+
+On the morning of the second day of the journey, the caravan is attacked by a White Dragon (Cryovain). Gundren's horse is spooked and takes off with Gundren on it. Sildar, chases after him. The dragon uses its ice cold breath to
+freeze one of the prospectors, Talon, that was accompanying the group to Phandalin. He is left as a solid
+ice scuplture after the attack. 
+
+The dragon makes off with one of the oxen pulling the cart of supplies and lifts the whole cart into the air along with the other ox before the oxen's leads snap and the cart and all its contents crash to the ground. The dragon flies off with its meal and can be seen flying towards the Sword Mountains to the south.
+
+The group must calm the remaining ox and reload the cart before following to see where Gundren and Sildar have
+gotten to. Once the begin catching up, they come around a bend only to spot two dead horses ahead.
+
+The saddlebags have been looted and neaby lies an empty map case.
+
+## Goblin Ambush
+Four goblins ambush the party from all sides.
+
+Roll goblin stealth check (+6). Anyone with passive perception lower than rolls is surprised.
+
+![](goblin-ambush-map.jpg)
+
+### Goblin Tactics
+Two rush forward for melee, while the other two attack from above with their bows.
+
+:::{layout-ncol=2}
+![](goblin-stat-block.jpeg)
+:::
+
+
+### Developments
+- Find goblin trail to Cragmaw Hideout
+- Capture goblin can lead them to hideout
+- Rest
+- Continue to Phandalin

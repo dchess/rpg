@@ -1,0 +1,33 @@
+---
+title: "Cragmaw Hideout"
+---
+
+## Goblin Trail
+The trail leads five miles northwest of ambush location.
+
+Along the trail the spot a snare that has been sprung. Hanging upside down 10 feet above the ground is a minstrel of some sort. His fiddle is on the ground below him. He begs for the party to free him. His name is Galandro, and he was headed to Phandalin for a gig at the Stonehill Inn when he stumbled into this trap a few hours ago. He says he was distracted by a white dragon flying overhead with an ox in its claws. 
+
+Another ten minutes down the trail there is a camouflaged pit trap (perception DC 15 to spot). If not spotted then lead character must make Dextirity check DC 10 or fall in and take 1d6 damage.
+
+## Locations
+
+![](Cragmaw_Hideout.webp)
+
+|#|Location|Threats|
+|---|---|---|
+|1|Cave Mouth|Stream|
+|2|Goblin Blind|2 goblins in thicket|
+|3|Kennel|3 wolves|
+|4|Steep Passage|goblin sentry|
+|5|Overpass|Flood|
+|6|Goblin Den|6 goblins, Yeemik|
+|7|Twin Pools Cave|3 goblins|
+|8|Klarg's Cave|Bugbear, wolf, 2 goblins|
+
+:::{layout-ncol=2}
+![](bugbear_stat_block.jpeg)
+
+![](Wolf_Statblock.jpeg)
+
+![](goblin-stat-block.jpeg)
+:::
