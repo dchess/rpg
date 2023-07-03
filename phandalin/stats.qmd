@@ -7,3 +7,54 @@
 
 ![](goblin-boss-stat-block.jpeg)
 :::
+
+
+## Monster Lists
+
+### Lost Mines of Phandelver
+- Goblin
+- Wolf
+- Bugbear
+- Redbrand ruffians (bandits)
+- Skeletons
+- Commoners
+- Nothic
+- Evil mage
+- Zombies
+- Twig blights
+- Ash zombies
+- Giant spiders
+- Green Dragon
+- Cultists
+- Orcs
+- Hobgoblins
+- Grick
+- Owlbear
+- Drow
+- Doppleganger
+- Stirges
+- Ochre jelly
+- Ghouls
+- Flameskull
+- Wraith
+- Spectator
+- Ogre (random encounter)
+
+### Dragon of Icespire Peak
+- White dragon
+- Banshee
+- Dire boar
+- Centaur
+- Will-o'-wisps
+- Mimic
+- Gnomes
+- Ankhegs
+- Wererats
+- Carrion crawler
+- Giant rats
+- Giant crab
+- Shark
+- Harpies
+- Manticore
+- Boars
+- Vine blights
