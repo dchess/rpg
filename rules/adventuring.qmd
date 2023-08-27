@@ -6,6 +6,8 @@ title: "Adventuring"
 - Advantage
 - Overland Exploration/Travel
 - Dungeoncrawling
+  - [Underworld clock](
+https://goblinpunch.blogspot.com/2023/04/the-underclock-fixing-random-encounter.html)
 - Food and water
 - Social Interactions
 - Rest & Healing
